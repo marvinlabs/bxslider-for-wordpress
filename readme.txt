@@ -3,8 +3,8 @@ Contributors: vprat, marvinlabs
 Donate link: http://www.marvinlabs.com/donate/
 Tags: wordpress, gallery, slider, bxslider, slideshow, 
 Requires at least: 3.5
-Tested up to: 3.6
-Stable tag: 1.4.1
+Tested up to: 3.8.1
+Stable tag: 1.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,6 +67,7 @@ our plugin. For instance: [bxgallery extra_options="pager: false, "]
 - **adaptive_height** *[1 or 0]*: if set to 1, the height of the slider/gallery will automatically adjust to the content
 of the current slide
 - **auto_start** *[1 or 0]*: if set to 1, the slideshow will automatically start after the page has loaded.
+- **shuffle** *[1 or 0]*: if set to 1, the images will be shown in random order
 				
 = [slider] and [bxslider] shortcodes =
 
@@ -140,6 +141,23 @@ every gallery/slider).
 
 == Changelog ==
 
+= 1.5.2 (2014/04/10) =
+
+* The sliders get assigned to a JS variable so they can be re-used somewhere else (for instance to reload the slider)
+
+= 1.5.1 (2014/01/17) =
+
+* Added an option to avoid adding the bxSlider javascript when the theme (or another plugin) already includes it
+
+= 1.5.0 (2013/11/06) =
+
+* Added a shortcode to shuffle the gallery images.
+* Fixed URLs when using an alternate wp-content folder
+
+= 1.4.2 (2013/08/20) =
+
+* Fixed typo in javascript and css links. 
+
 = 1.4.1 (2013/07/29) =
 
 * Fixed bug where some settings from 1.4.0 were switched between slider and gallery shortcodes. 
@@ -174,7 +192,7 @@ every gallery/slider).
 
 = 1.1.1 (2013/04/08) =
 
-* Fixed a bug on activation ([function.array-merge]: Argument #2 is not an array in bxslider-integration/includes/settings.class.php)
+* Fixed a bug on activation ([function.array-merge]: Argument #2 is not an array in bxslider-integration/includes/core-classes/settings.class.php)
 
 = 1.1.0 (2013/03/29) =
 

@@ -67,13 +67,18 @@ class BXSG_GalleryShortcode {
 				'auto_start'		=> $this->plugin->get_option( BXSG_Settings::$OPTION_GS_AUTO_START ),
 				'speed'				=> $this->plugin->get_option( BXSG_Settings::$OPTION_GS_SPEED ),
 				'duration'			=> $this->plugin->get_option( BXSG_Settings::$OPTION_GS_DURATION ),
-				'extra_options'		=> $this->plugin->get_option( BXSG_Settings::$OPTION_GS_EXTRA_OPTIONS )
+				'extra_options'		=> $this->plugin->get_option( BXSG_Settings::$OPTION_GS_EXTRA_OPTIONS ),
+				'shuffle'			=> 0
 			), $params ) );
 		
 		// If no ids are provided, we will take every image attached to the current post. 
 		// Else, we'll simply fetch them from the DB
 		$ids = ( $ids ) ? explode( ',', $ids ) : array(); 
 		$attachments = $this->get_attached_medias( $ids, $exclude_featured );
+		
+		if ( $shuffle==1 ) {
+			shuffle( $attachments );
+		}
 		
 		// Compute an ID for this particular gallery
 		$gallery_id = 'bx-gallery-' . $this->current_gallery_id;
