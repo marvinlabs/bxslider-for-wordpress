@@ -76,10 +76,12 @@ class BXSG_Plugin {
 	public function load_scripts() {
 		if ( is_admin() ) return;
 		
-		wp_enqueue_script(
-			'jquery.bxslider',
-			BXSG_SCRIPTS_URL . '/jquery.bxslider.min.js', 
-			array( 'jquery' ) );
+		if ( $this->get_option( BXSG_Settings::$OPTION_INCLUDE_JS ) ) {
+			wp_enqueue_script(
+				'jquery.bxslider',
+				BXSG_SCRIPTS_URL . '/jquery.bxslider.min.js', 
+				array( 'jquery' ) );
+		}
 	}
 
 	/**

@@ -98,6 +98,21 @@ class BXSG_Settings {
 						. __( 'If not, you should style the slider yourself in your theme.', 'bxsg' )
 						. '</p>' )
 			);	
+			
+		add_settings_field(
+				self::$OPTION_INCLUDE_JS, 
+				__('Include JS', 'bxsg'),
+				array( &$this, 'print_input_field' ), 
+				self::$OPTIONS_PAGE_SLUG,
+				'bxsg_section_general_settings',
+				array(
+					'option_id' => self::$OPTION_INCLUDE_JS,
+					'type' 		=> 'checkbox',
+					'caption'	=> __( 'Include the bxSlider script.', 'bxsg' )
+						. '<p class="description">'
+						. __( 'Uncheck this option only if your theme already provides a compatible bxSlider javascript. Else, leave it on.', 'bxsg' )
+						. '</p>' )
+			);	
 		
 		add_settings_field(
 				self::$OPTION_DEFAULT_TRANSITION, 
@@ -417,6 +432,7 @@ class BXSG_Settings {
     	
     	// Build the trusted options array
     	$this->validate_boolean( $input, $validated, self::$OPTION_INCLUDE_CSS );  
+    	$this->validate_boolean( $input, $validated, self::$OPTION_INCLUDE_JS );  
     	$this->validate_enum( $input, $validated, self::$OPTION_DEFAULT_TRANSITION, array( 'fade', 'horizontal', 'vertical' ) );    
     	  
     	$this->validate_boolean( $input, $validated, self::$OPTION_GS_REPLACE_DEFAULT_GALLERIES );    
@@ -619,6 +635,7 @@ class BXSG_Settings {
 		$current_options = get_option( BXSG_Settings::$OPTIONS_GROUP );		
 		$this->default_options = array(
 				self::$OPTION_INCLUDE_CSS 					=> true,
+				self::$OPTION_INCLUDE_JS 					=> true,
 				self::$OPTION_DEFAULT_TRANSITION 			=> 'horizontal',
 				
 				self::$OPTION_GS_REPLACE_DEFAULT_GALLERIES 	=> true,
@@ -655,6 +672,7 @@ class BXSG_Settings {
 
 	// General options
 	public static $OPTION_INCLUDE_CSS	 				= 'include_css';
+	public static $OPTION_INCLUDE_JS	 				= 'include_js';
 	public static $OPTION_DEFAULT_TRANSITION			= 'transition';
 	
 	// Gallery shortcodes
