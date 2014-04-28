@@ -2,7 +2,7 @@
 /*
 Plugin Name: bxSlider integration for WordPress
 Plugin URI: http://www.marvinlabs.com
-Version: 1.5.2
+Version: 1.5.3
 Description: Replaces the native WordPress galleries by a slider based on the jQuery plugin: bxSlider 
 Author: MarvinLabs
 Author URI: http://www.marvinlabs.com
