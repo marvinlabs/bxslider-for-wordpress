@@ -4,7 +4,7 @@ Donate link: http://www.marvinlabs.com/donate/
 Tags: wordpress, gallery, slider, bxslider, slideshow, 
 Requires at least: 3.5
 Tested up to: 3.9
-Stable tag: 1.5.3
+Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -140,6 +140,11 @@ You can in the meantime use the shortcode parameter "extra_options" (or the sett
 every gallery/slider).  
 
 == Changelog ==
+
+= 1.6.0 (2014/05/15) =
+
+* New: Added a parameter to the gallery and bx-gallery shortcodes to specify image size and thumbnail size to use (respectively 
+defaults to 'full' and 'thumbnail')
 
 = 1.5.3 (2014/04/23) =
 
