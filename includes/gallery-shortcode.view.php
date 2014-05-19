@@ -26,7 +26,7 @@ $gallery_extra_classes = $adaptive_height ? 'adaptive-height-on ' : 'adaptive-he
 	<div class="bxslider">
 <?php 	
 foreach ( $attachments as $attachment ) : 
-	$img_attr = wp_get_attachment_image_src( $attachment->ID, 'full' );
+	$img_attr = wp_get_attachment_image_src( $attachment->ID, $size );
 	$title = apply_filters( 'the_title', $attachment->post_title, $attachment->ID );
 	$desc = $attachment->post_excerpt;
 ?>
@@ -45,7 +45,7 @@ endforeach; ?>
 <?php 	
 $i = 0;
 foreach ( $attachments as $attachment ) : 
-	$img_attr = wp_get_attachment_image_src( $attachment->ID, 'thumbnail' );
+	$img_attr = wp_get_attachment_image_src( $attachment->ID, $thumb_size );
 	$title = apply_filters( 'the_title', $attachment->post_title, $attachment->ID );
 	$desc = $attachment->post_excerpt;
 	

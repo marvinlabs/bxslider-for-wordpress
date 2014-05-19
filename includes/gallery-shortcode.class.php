@@ -68,7 +68,9 @@ class BXSG_GalleryShortcode {
 				'speed'				=> $this->plugin->get_option( BXSG_Settings::$OPTION_GS_SPEED ),
 				'duration'			=> $this->plugin->get_option( BXSG_Settings::$OPTION_GS_DURATION ),
 				'extra_options'		=> $this->plugin->get_option( BXSG_Settings::$OPTION_GS_EXTRA_OPTIONS ),
-				'shuffle'			=> 0
+				'shuffle'			=> 0,
+				'size'				=> 'full',
+				'thumb_size'		=> 'thumbnail'
 			), $params ) );
 		
 		// If no ids are provided, we will take every image attached to the current post. 
