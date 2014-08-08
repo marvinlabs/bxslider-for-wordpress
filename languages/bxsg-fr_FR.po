@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bxSlider for WordPress\n"
-"POT-Creation-Date: 2013-05-07 13:18+0100\n"
-"PO-Revision-Date: 2013-05-07 13:18+0100\n"
+"POT-Creation-Date: 2014-08-08 22:12+0100\n"
+"PO-Revision-Date: 2014-08-08 22:20+0100\n"
 "Last-Translator: \n"
 "Language-Team: MarvinLabs\n"
 "Language: FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
 "esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -40,27 +40,43 @@ msgstr ""
 "Si non, vous devrez mettre en forme le plugin par vous-même dans votre thème."
 
 #: ../includes/settings.class.php:104
+msgid "Include JS"
+msgstr "Inclure le JavaScript"
+
+#: ../includes/settings.class.php:111
+msgid "Include the bxSlider script."
+msgstr "Inclure le script de bxSlider."
+
+#: ../includes/settings.class.php:113
+msgid ""
+"Uncheck this option only if your theme already provides a compatible "
+"bxSlider javascript. Else, leave it on."
+msgstr ""
+"Désactivez cette option seulement si votre thème inclue déjà le javascript "
+"de bxSlider. Sinon, laissez cette case cochée."
+
+#: ../includes/settings.class.php:119
 msgid "Slide transitions"
 msgstr "Transitions des diapos"
 
-#: ../includes/settings.class.php:111
+#: ../includes/settings.class.php:126
 msgid "Fade"
 msgstr "Fondu"
 
-#: ../includes/settings.class.php:112
+#: ../includes/settings.class.php:127
 msgid "Slide horizontally"
 msgstr "Glissé horizontal"
 
-#: ../includes/settings.class.php:113
+#: ../includes/settings.class.php:128
 msgid "Slide vertically"
 msgstr "Glissé vertical"
 
-#: ../includes/settings.class.php:115
+#: ../includes/settings.class.php:130
 msgid ""
 "The default type of transition to use to go from one slide to another one. "
 msgstr "Le type de transition par défaut entre les diapos."
 
-#: ../includes/settings.class.php:116
+#: ../includes/settings.class.php:131
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>transition=fade</code>, <code>transition=horizontal</code> or "
@@ -70,20 +86,20 @@ msgstr ""
 "<code>transition=fade</code>, <code>transition=horizontal</code> ou "
 "<code>transition=vertical</code>."
 
-#: ../includes/settings.class.php:123
+#: ../includes/settings.class.php:138
 msgid "Gallery Shortcodes"
 msgstr "Shortcodes de gallerie"
 
-#: ../includes/settings.class.php:130
+#: ../includes/settings.class.php:145
 msgid "Default WordPress galleries"
 msgstr "Galleries intégrées WordPress"
 
-#: ../includes/settings.class.php:137
+#: ../includes/settings.class.php:152
 msgid "Replace the default WordPress gallery for a bxSlider based one."
 msgstr ""
 "Remplacer les galleries intégrées WordPress par des galleries bxSlider."
 
-#: ../includes/settings.class.php:139
+#: ../includes/settings.class.php:154
 msgid ""
 "All the galleries included in your posts and pages with the [gallery] "
 "shortcode will turn into cool dynamic galleries using the bxSlider script."
@@ -91,18 +107,18 @@ msgstr ""
 "Toutes les galleries inclues dans vos articles et vos pages avec le "
 "shortcode [gallery] seront transformées en galleries dynamiques bxSlider."
 
-#: ../includes/settings.class.php:145
+#: ../includes/settings.class.php:160
 msgid "Exclude featured image"
 msgstr "Exclure l'image à la une"
 
-#: ../includes/settings.class.php:152
+#: ../includes/settings.class.php:167
 msgid ""
 "Exclude the featured image from the galleries that show all the post images."
 msgstr ""
 "Exclure l'image à la une des galleries qui montrent toutes les images de "
 "l'article"
 
-#: ../includes/settings.class.php:154
+#: ../includes/settings.class.php:169
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>exclude_featured=0</code> or <code>exclude_featured=1</code>."
@@ -110,17 +126,17 @@ msgstr ""
 "Ceci peut être redéfini dans le shortcode en passant le paramètre "
 "<code>exclude_featured=0</code> ou <code>exclude_featured=1</code>."
 
-#: ../includes/settings.class.php:160
+#: ../includes/settings.class.php:175
 msgid "Hide the carousel"
 msgstr "Masquer le carrousel"
 
-#: ../includes/settings.class.php:167
+#: ../includes/settings.class.php:182
 msgid "You can hide the default thumbnail carousel shown above the gallery."
 msgstr ""
 "Vous pouvez masquer le carrousel de miniatures affiché au dessus des "
 "galleries."
 
-#: ../includes/settings.class.php:169
+#: ../includes/settings.class.php:184
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>hide_carousel=0</code> or <code>hide_carousel=1</code>."
@@ -128,15 +144,15 @@ msgstr ""
 "Ceci peut être redéfini dans le shortcode en passant le paramètre "
 "<code>hide_carousel=0</code> ou <code>hide_carousel=1</code>."
 
-#: ../includes/settings.class.php:175 ../includes/settings.class.php:283
+#: ../includes/settings.class.php:190 ../includes/settings.class.php:347
 msgid "Adaptive height"
 msgstr "Hauteur adaptative"
 
-#: ../includes/settings.class.php:182 ../includes/settings.class.php:290
+#: ../includes/settings.class.php:197 ../includes/settings.class.php:354
 msgid "Dynamically adjust slider height based on each slide's height."
 msgstr "Ajuster dynamiquement la hauteur du slider selon la diapo en cours."
 
-#: ../includes/settings.class.php:184 ../includes/settings.class.php:292
+#: ../includes/settings.class.php:199 ../includes/settings.class.php:356
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>adaptive_height=0</code> or <code>adaptive_height=1</code>."
@@ -144,15 +160,15 @@ msgstr ""
 "Ceci peut être redéfini dans le shortcode en passant le paramètre "
 "<code>adaptive_height=0</code> ou <code>adaptive_height=1</code>."
 
-#: ../includes/settings.class.php:190 ../includes/settings.class.php:298
+#: ../includes/settings.class.php:205 ../includes/settings.class.php:362
 msgid "Auto start"
 msgstr "Démarrage automatique"
 
-#: ../includes/settings.class.php:197
+#: ../includes/settings.class.php:212
 msgid "Gallery slideshow will automatically start."
 msgstr "Le diaporama de la gallerie démarre automatiquement."
 
-#: ../includes/settings.class.php:199 ../includes/settings.class.php:307
+#: ../includes/settings.class.php:214 ../includes/settings.class.php:371
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>auto_start=0</code> or <code>auto_start=1</code>."
@@ -160,23 +176,51 @@ msgstr ""
 "Ceci peut être redéfini dans le shortcode en passant le paramètre "
 "<code>auto_start=0</code> ou <code>auto_start=1</code>."
 
-#: ../includes/settings.class.php:205
+#: ../includes/settings.class.php:220 ../includes/settings.class.php:377
+msgid "Duration"
+msgstr "Durée"
+
+#: ../includes/settings.class.php:228 ../includes/settings.class.php:385
+msgid ""
+"The time before we automatically transition to the next slide (a number of "
+"milliseconds). This can be overriden in the shortcode itself by passing the "
+"parameter <code>duration=1500</code> or <code>duration=500</code>."
+msgstr ""
+"Le temps avant d'automatiquement transitioner vers le slide suivant (en "
+"millisecondes). Ceci peut être redéfini dans le shortcode en passant le "
+"paramètre <code>duration=1500</code> ou <code>duration=500</code>."
+
+#: ../includes/settings.class.php:235 ../includes/settings.class.php:392
+msgid "Speed"
+msgstr "Vitesse"
+
+#: ../includes/settings.class.php:243 ../includes/settings.class.php:400
+msgid ""
+"The speed of the transition (a number of milliseconds). This can be "
+"overriden in the shortcode itself by passing the parameter <code>speed=1500</"
+"code> or <code>speed=500</code>."
+msgstr ""
+"La vitesse de transition (en millisecondes). Ceci peut être redéfini dans le "
+"shortcode en passant le paramètre <code>speed=1500</code> ou "
+"<code>speed=500</code>."
+
+#: ../includes/settings.class.php:250
 msgid "Carousel thumb width"
 msgstr "Largeur de miniature dans le carrousel"
 
-#: ../includes/settings.class.php:213 ../includes/settings.class.php:227
+#: ../includes/settings.class.php:258 ../includes/settings.class.php:272
 msgid "a number without unit; Will be interpreted as a value in pixels"
 msgstr "Un nombre sans unité ; Sera interprété comme une valeur en pixels"
 
-#: ../includes/settings.class.php:219
+#: ../includes/settings.class.php:264
 msgid "Carousel thumb margin"
 msgstr "Marge entre les miniatures dans le carrousel"
 
-#: ../includes/settings.class.php:233
+#: ../includes/settings.class.php:278
 msgid "Carousel min thumbs"
 msgstr "Nombre min. de miniatures"
 
-#: ../includes/settings.class.php:241
+#: ../includes/settings.class.php:286
 msgid ""
 "The minimum number of thumbnails to be shown. Thumbnails will be sized down "
 "if carousel becomes smaller than the original size"
@@ -184,11 +228,11 @@ msgstr ""
 "Le nombre minimal de miniatures à afficher dans le carrousel. Les miniatures "
 "seront réduites si le carrouseil devient plus petit que sa taille originale"
 
-#: ../includes/settings.class.php:247
+#: ../includes/settings.class.php:292
 msgid "Carousel max thumbs"
 msgstr "Nombre max. de miniatures"
 
-#: ../includes/settings.class.php:255
+#: ../includes/settings.class.php:300
 msgid ""
 "The maximum number of thumbnails to be shown. Thumbnails will be sized up if "
 "carousel becomes larger than the original size."
@@ -196,11 +240,11 @@ msgstr ""
 "Le nombre maximal de miniatures à afficher dans le carrousel. Les miniatures "
 "seront agrandies si le carrouseil devient plus grand que sa taille originale"
 
-#: ../includes/settings.class.php:261
+#: ../includes/settings.class.php:306
 msgid "Skip thumbnails"
 msgstr "Saut de miniatures"
 
-#: ../includes/settings.class.php:269
+#: ../includes/settings.class.php:314
 msgid ""
 "The number of thumbnails to move on transition. This value must be >= min "
 "thumbnails, and <= max thumbnails. If zero (default), the number of fully-"
@@ -210,33 +254,47 @@ msgstr ""
 "être >= au nombre minimal de miniatures et <= au nombre maximal. Si c'est 0 "
 "(par défaut), le nombre de miniatures visibles entièrement sera utilisé."
 
-#: ../includes/settings.class.php:276
+#: ../includes/settings.class.php:320 ../includes/settings.class.php:407
+msgid "Extra options"
+msgstr "Options supplémentaires"
+
+#: ../includes/settings.class.php:328 ../includes/settings.class.php:415
+msgid ""
+"You may enter here any raw bxSlider option that may not be exposed as a "
+"plugin setting. Simply put the options as you would within the javascript. "
+"Here is an example:"
+msgstr ""
+"Vous pouvez saisir ici n'importe quelle option native de bxSlider qui n'est "
+"pas exposée comme réglage du plugin. Ecrivez simplement l'option comme vous "
+"le feriez avec le javascript. Voici un exemple :"
+
+#: ../includes/settings.class.php:340
 msgid "Slider Shortcodes"
 msgstr "Shortcodes Slider"
 
-#: ../includes/settings.class.php:305
+#: ../includes/settings.class.php:369
 msgid "Slides will automatically transition after the page is loaded."
 msgstr "Les diapos défileront automatiquement après le chargement de la page."
 
-#: ../includes/settings.class.php:369
+#: ../includes/settings.class.php:500
 msgid " is not a valid value"
 msgstr "n'est pas une valeur valide"
 
-#: ../includes/settings.class.php:391
+#: ../includes/settings.class.php:522
 msgid "must be an integer"
 msgstr "doit être un entier"
 
-#: ../includes/settings.class.php:400
+#: ../includes/settings.class.php:531
 #, php-format
 msgid "must be greater than %s"
 msgstr "doit être plus grand que %s"
 
-#: ../includes/settings.class.php:409
+#: ../includes/settings.class.php:540
 #, php-format
 msgid "must be lower than %s"
 msgstr "doit être plus petit que %s"
 
-#: ../includes/settings.class.php:426
+#: ../includes/settings.class.php:557
 msgid ""
 "Options related to the shortcodes that output an image gallery: <code>"
 "[gallery]</code> or <code>[bxgallery]</code>."
@@ -244,7 +302,7 @@ msgstr ""
 "Options liées aux shortcodes qui produisent une gallerie d'images : <code>"
 "[gallery]</code> or=u <code>[bxgallery]</code>."
 
-#: ../includes/settings.class.php:430
+#: ../includes/settings.class.php:561
 msgid ""
 "Options related to the shortcodes that output a generic slider: <code>"
 "[slider]</code> or <code>[bxslider]</code>."
