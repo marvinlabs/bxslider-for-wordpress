@@ -21,9 +21,7 @@ module.exports = function (grunt) {
                 "bump-only": "grunt-bump",
                 "bump-commit": "grunt-bump",
                 "replace": "grunt-text-replace",
-                "gitrebase": "grunt-git",
-                "gitcommit": "grunt-git",
-                "gittag": "grunt-git"
+                "gitcommit": "grunt-git"
             }
         }
     });
@@ -38,7 +36,6 @@ module.exports = function (grunt) {
     grunt.registerTask("release", "Release task", function (mode) {
         grunt.task.run(
             "checkpending",
-            "gitrebase:pre_release",
             "version::" + mode,
             "dist",
             "gitcommit:post_release",
