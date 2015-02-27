@@ -8,12 +8,12 @@ Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-bxSlider for WordPress integrates the cool responsive content slider "bxSlider jQuery plugin" in your very own WordPress 
+bxSlider for WordPress integrates the great responsive content slider "bxSlider jQuery plugin" in your very own WordPress
 site.
 
 == Description ==
 
-bxSlider for WordPress integrates the cool responsive content slider [bxSlider jQuery plugin](http://bxslider.com/) in 
+bxSlider for WordPress integrates the great responsive content slider [bxSlider jQuery plugin](http://bxslider.com/) in
 your very own WordPress site. Galleries are turned into beautiful sliders, but you can also roll you own sliders using 
 special shortcode. The best thing is that you are not limited to the number of sliders or galleries per page, you can 
 have as many as you want! 
@@ -140,6 +140,10 @@ You can in the meantime use the shortcode parameter "extra_options" (or the sett
 every gallery/slider).  
 
 == Changelog ==
+
+= 1.7.0 (2015/02/27) =
+
+* New: Better structure for the plugin sources and release system
 
 = 1.6.0 (2014/05/15) =
 
