@@ -1,0 +1,913 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bxSlider for WordPress\n"
+"POT-Creation-Date: 2014-08-11 09:55+0100\n"
+"PO-Revision-Date: 2014-08-11 14:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: MarvinLabs\n"
+"Language: FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/settings.class.php:59 ../includes/settings.class.php:60
+#: ../includes/settings.view.php:22
+msgid "bxSlider integration"
+msgstr "bxSlider integrisanje"
+
+#: ../includes/settings.class.php:82
+msgid "General Settings"
+msgstr "Opšte postavke"
+
+#: ../includes/settings.class.php:89
+msgid "Include CSS"
+msgstr "Uključi CSS"
+
+#: ../includes/settings.class.php:96
+msgid "Include the default stylesheet."
+msgstr "Uključi podrazumevanu datoteku sa stilovima."
+
+#: ../includes/settings.class.php:98
+msgid "If not, you should style the slider yourself in your theme."
+msgstr "Ako nećete, sami treba da stilizujete slajder u svojoj temi."
+
+#: ../includes/settings.class.php:104
+msgid "Include JS"
+msgstr "Obuhvati JS"
+
+#: ../includes/settings.class.php:111
+msgid "Include the bxSlider script."
+msgstr "Obuhvati bxSlider script."
+
+#: ../includes/settings.class.php:113
+msgid ""
+"Uncheck this option only if your theme already provides a compatible "
+"bxSlider javascript. Else, leave it on."
+msgstr ""
+"Poništite štikliranje ove opcije isključivo ako vaša tema već obezbeđuje "
+"kompatibilan bxSlider javascript. U suprotnom, ostavite opciju štikliranu."
+
+#: ../includes/settings.class.php:119
+msgid "Slide transitions"
+msgstr "Prelaz s jednog slajda na drugi"
+
+#: ../includes/settings.class.php:126
+msgid "Fade"
+msgstr "Postepeno bledi"
+
+#: ../includes/settings.class.php:127
+msgid "Slide horizontally"
+msgstr "Kliza horizontalno"
+
+#: ../includes/settings.class.php:128
+msgid "Slide vertically"
+msgstr "Kliza vertikalno"
+
+#: ../includes/settings.class.php:130
+msgid ""
+"The default type of transition to use to go from one slide to another one. "
+msgstr "Podrazumevani tip prelaza s jednog slajda na drugi."
+
+#: ../includes/settings.class.php:131
+msgid ""
+"This can be overriden in the shortcode itself by passing the parameter "
+"<code>transition=fade</code>, <code>transition=horizontal</code> or "
+"<code>transition=vertical</code>."
+msgstr ""
+"Ova vrednost može se poništi u kratkom kodu unosom parametara:"
+"<code>transition=fade</code>, <code>transition=horizontal</code>ili "
+"<code>transition=vertical</code>."
+
+#: ../includes/settings.class.php:138
+msgid "Gallery Shortcodes"
+msgstr "Kratki kodovi galerije"
+
+#: ../includes/settings.class.php:145
+msgid "Default WordPress galleries"
+msgstr "Podrazumevane WordPress galerije"
+
+#: ../includes/settings.class.php:152
+msgid "Replace the default WordPress gallery for a bxSlider based one."
+msgstr ""
+"Zameni podrazumevanu WordPress galeriju onom koja se bazira na bxSlider-u."
+
+#: ../includes/settings.class.php:154
+msgid ""
+"All the galleries included in your posts and pages with the [gallery] "
+"shortcode will turn into cool dynamic galleries using the bxSlider script."
+msgstr ""
+"Sve galerije uključene u vaše postove i stranice sa kratkim kodom [galerije] "
+"pretvoriće se u savremene, dinamičke galerije koje koriste bxSlider script."
+
+#: ../includes/settings.class.php:160
+msgid "Exclude featured image"
+msgstr "Isključi uobličenu sliku"
+
+#: ../includes/settings.class.php:167
+msgid ""
+"Exclude the featured image from the galleries that show all the post images."
+msgstr "Isključi uobličenu sliku iz galerija koje prikazuju sve slike posta."
+
+#: ../includes/settings.class.php:169
+msgid ""
+"This can be overriden in the shortcode itself by passing the parameter "
+"<code>exclude_featured=0</code> or <code>exclude_featured=1</code>."
+msgstr ""
+"Ovo se može poništiti u samom kratkom kodu unosom parametra "
+"<code>exclude_featured=0</code> ili <code>exclude_featured=1</code>."
+
+#: ../includes/settings.class.php:175
+msgid "Hide the carousel"
+msgstr "Sakrij karusel"
+
+#: ../includes/settings.class.php:182
+msgid "You can hide the default thumbnail carousel shown above the gallery."
+msgstr ""
+"Možete sakriti podrazumevani karusel sa sličicama koji se prikazuje iznad "
+"galerije. "
+
+#: ../includes/settings.class.php:184
+msgid ""
+"This can be overriden in the shortcode itself by passing the parameter "
+"<code>hide_carousel=0</code> or <code>hide_carousel=1</code>."
+msgstr ""
+"Ovo se može poništiti u samom kratkom kodu unosom parametra "
+"<code>hide_carousel=0</code> ili <code>hide_carousel=1</code>."
+
+#: ../includes/settings.class.php:190 ../includes/settings.class.php:347
+msgid "Adaptive height"
+msgstr "Prilagodljiva visina"
+
+#: ../includes/settings.class.php:197 ../includes/settings.class.php:354
+msgid "Dynamically adjust slider height based on each slide's height."
+msgstr "Dinamički prilagođava visinu slajdera na osnovu visine svakog slajda."
+
+#: ../includes/settings.class.php:199 ../includes/settings.class.php:356
+msgid ""
+"This can be overriden in the shortcode itself by passing the parameter "
+"<code>adaptive_height=0</code> or <code>adaptive_height=1</code>."
+msgstr ""
+"Ovo se može poništiti u samom kratkom kodu unosom parametra "
+"<code>adaptive_height=0</code> ili <code>adaptive_height=1</code>."
+
+#: ../includes/settings.class.php:205 ../includes/settings.class.php:362
+msgid "Auto start"
+msgstr "Automatski početak"
+
+#: ../includes/settings.class.php:212
+msgid "Gallery slideshow will automatically start."
+msgstr "Prikaz galerije slajdova počeće automatski."
+
+#: ../includes/settings.class.php:214 ../includes/settings.class.php:371
+msgid ""
+"This can be overriden in the shortcode itself by passing the parameter "
+"<code>auto_start=0</code> or <code>auto_start=1</code>."
+msgstr ""
+"Ovo se može poništiti u samom kratkom kodu unosom parametra "
+"<code>auto_start=0</code> ili <code>auto_start=1</code>."
+
+#: ../includes/settings.class.php:220 ../includes/settings.class.php:377
+msgid "Duration"
+msgstr "Trajanje"
+
+#: ../includes/settings.class.php:228 ../includes/settings.class.php:385
+msgid ""
+"The time before we automatically transition to the next slide (a number of "
+"milliseconds). This can be overriden in the shortcode itself by passing the "
+"parameter <code>duration=1500</code> or <code>duration=500</code>."
+msgstr ""
+"Vreme koje prođe pre nego što automatski pređemo na sledeći slajd (broj "
+"milisekundi). Može se poništiti u kratkom kodu unosom parametra:"
+"<code>duration=1500</code> ili <code>duration=500</code>."
+
+#: ../includes/settings.class.php:235 ../includes/settings.class.php:392
+msgid "Speed"
+msgstr "Brzina"
+
+#: ../includes/settings.class.php:243 ../includes/settings.class.php:400
+msgid ""
+"The speed of the transition (a number of milliseconds). This can be "
+"overriden in the shortcode itself by passing the parameter <code>speed=1500</"
+"code> or <code>speed=500</code>."
+msgstr ""
+"Brzina tranzicije (broj milisekundi). Može se poništiti u kratkom kodu "
+"unosom parametra:<code>speed=1500</code> ili <code>speed=500</code>."
+
+#: ../includes/settings.class.php:250
+msgid "Carousel thumb width"
+msgstr "Širina sličice u karuselu"
+
+#: ../includes/settings.class.php:258 ../includes/settings.class.php:272
+msgid "a number without unit; Will be interpreted as a value in pixels"
+msgstr ""
+"broj bez jedinice vrednosti; tumačiće se kao vrednost izražena u pikselima"
+
+#: ../includes/settings.class.php:264
+msgid "Carousel thumb margin"
+msgstr "Margina sličice u karuselu"
+
+#: ../includes/settings.class.php:278
+msgid "Carousel min thumbs"
+msgstr "Minimalan broj sličica u karuselu"
+
+#: ../includes/settings.class.php:286
+msgid ""
+"The minimum number of thumbnails to be shown. Thumbnails will be sized down "
+"if carousel becomes smaller than the original size"
+msgstr ""
+"Minimalan broj sličica koje će biti prikazane u karuselu. Sličice će biti "
+"smanjene ako karusel postane manji od originalne veličine."
+
+#: ../includes/settings.class.php:292
+msgid "Carousel max thumbs"
+msgstr "Maksimalan broj sličica u karuselu"
+
+#: ../includes/settings.class.php:300
+msgid ""
+"The maximum number of thumbnails to be shown. Thumbnails will be sized up if "
+"carousel becomes larger than the original size."
+msgstr ""
+"Maksimalan broj sličica koje će biti prikazane u karuselu. Sličice će biti "
+"uvećane ako karusel postane veći od originalne veličine."
+
+#: ../includes/settings.class.php:306
+msgid "Skip thumbnails"
+msgstr "Preskoči sličice"
+
+#: ../includes/settings.class.php:314
+msgid ""
+"The number of thumbnails to move on transition. This value must be >= min "
+"thumbnails, and <= max thumbnails. If zero (default), the number of fully-"
+"visible thumbnails will be used."
+msgstr ""
+"Broj sličica koje će se kretati u prelazu. Vrednost mora biti >= min "
+"sličica, and <= max sličica. Ako je broj 0 (podrazumevani), koristiće se "
+"broj potpuno vidljivih sličica."
+
+#: ../includes/settings.class.php:320 ../includes/settings.class.php:407
+msgid "Extra options"
+msgstr "Dodatne opcije"
+
+#: ../includes/settings.class.php:328 ../includes/settings.class.php:415
+msgid ""
+"You may enter here any raw bxSlider option that may not be exposed as a "
+"plugin setting. Simply put the options as you would within the javascript. "
+"Here is an example:"
+msgstr ""
+"Ovde možete uneti bilo koju sirovu bxSlider opciju koja se ne može izložiti "
+"kao opcija za plugin. Jednostavno, formulišite opcije kao što biste uradili "
+"da je u pitanju javascript. Evo primera:"
+
+#: ../includes/settings.class.php:340
+msgid "Slider Shortcodes"
+msgstr "Kratki kodovi slajdera"
+
+#: ../includes/settings.class.php:369
+msgid "Slides will automatically transition after the page is loaded."
+msgstr "Slajdovi će se automatski smenjivati nakon učitavanja stranice."
+
+#: ../includes/settings.class.php:500
+msgid " is not a valid value"
+msgstr "vrednost nije validna"
+
+#: ../includes/settings.class.php:522
+msgid "must be an integer"
+msgstr "mora biti ceo broj"
+
+#: ../includes/settings.class.php:531
+#, php-format
+msgid "must be greater than %s"
+msgstr "mora biti veći od  %s"
+
+#: ../includes/settings.class.php:540
+#, php-format
+msgid "must be lower than %s"
+msgstr "mora biti manji od %s"
+
+#: ../includes/settings.class.php:557
+msgid ""
+"Options related to the shortcodes that output an image gallery: <code>"
+"[gallery]</code> or <code>[bxgallery]</code>."
+msgstr "Opcije u vezi sa kratkim kodovima koji čine galeriju slika:"
+
+#: ../includes/settings.class.php:561
+msgid ""
+"Options related to the shortcodes that output a generic slider: <code>"
+"[slider]</code> or <code>[bxslider]</code>."
+msgstr ""
+"Opcije u vezi sa kratkim kodovima koji čine generički slajder:<code>[slider]"
+"</code> ili <code>[bxslider]</code>."
+
+#~ msgid "Register"
+#~ msgstr "S'enregistrer"
+
+#~ msgid "Reset your password"
+#~ msgstr "Réinitialiser votre mot de passe"
+
+#~ msgid "Login"
+#~ msgstr "Connexion"
+
+#, fuzzy
+#~ msgid ""
+#~ "You must login to access your own customer area. If you do not have an "
+#~ "account yet, please register or contact us so that we can create it."
+#~ msgstr ""
+#~ "Si vous n'avez pas encore de compte utilisateur, merci de vous "
+#~ "enregistrer ou de nous contacter pour que nous puissions le créer."
+
+#~ msgid "Customer Area"
+#~ msgstr "Espace Client"
+
+#~ msgid "Login Form"
+#~ msgstr "Formulaire de connexion"
+
+#~ msgid "Email format"
+#~ msgstr "Format du mel"
+
+#~ msgid "Plain text"
+#~ msgstr "Texte"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#, fuzzy
+#~ msgid ""
+#~ "The format in which login_form get sent. HTML might not always be "
+#~ "properly formatted."
+#~ msgstr ""
+#~ "Le format dans lequel les notifications sont envoyées. HTML peut ne pas "
+#~ "être correctement mis en forme."
+
+#~ msgid "The notification can not be sent if the file is not published"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si le fichier n'est pas publié"
+
+#~ msgid "The notification can not be sent if the file does not have an owner"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si le fichier n'a pas de "
+#~ "propriétaire"
+
+#~ msgid "The notification can not be sent if the file has not been uploaded"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si aucun fichier n'a été "
+#~ "téléversé"
+
+#~ msgid "A notification has been sent to %s"
+#~ msgstr "Une notification a été envoyée à %s"
+
+#~ msgid "Notifications"
+#~ msgstr "Notifications"
+
+#~ msgid "Let the owner know he can access this file"
+#~ msgstr "Informer le propriétaire qu'il peut accéder à ce fichier"
+
+#~ msgid ""
+#~ "The notification will only be sent if you publish the file, if you have "
+#~ "actually uploaded a file and if you have set an owner. Else nothing will "
+#~ "be sent."
+#~ msgstr ""
+#~ "La notification ne sera envoyée que si vous publiez le fichier, si vous "
+#~ "avez téléversé un fichier et si vous lui avez assigné un propriétaire. "
+#~ "Sinon rien ne sera envoyé."
+
+#~ msgid "From"
+#~ msgstr "De"
+
+#~ msgid "The emails will be shown as sent by this name."
+#~ msgstr "Les courriels seront vus comme envoyés de ce nom."
+
+#~ msgid "The emails will be shown as sent from this address."
+#~ msgstr "Les courriels seront vus comme envoyés de cette adresse."
+
+#~ msgid "New Private File"
+#~ msgstr "Nouveau Fichier Privé"
+
+#~ msgid "Mode"
+#~ msgstr "Mode"
+
+#~ msgid "Disabled"
+#~ msgstr "Désactivé"
+
+#~ msgid "Enabled"
+#~ msgstr "Activé"
+
+#~ msgid "Subjet"
+#~ msgstr "Sujet"
+
+#~ msgid "Body"
+#~ msgstr "Contenu"
+
+#~ msgid "Private File Download"
+#~ msgstr "Téléchargement d'un Fichier Privé"
+
+#~ msgid "Only the first time"
+#~ msgstr "Seulement la première fois"
+
+#~ msgid "Always"
+#~ msgstr "Toujours"
+
+#~ msgid ""
+#~ "You can choose whether you want to enable this notification. If you do, "
+#~ "you can opt to receive the notifications only the first time the user "
+#~ "downloads the file or every time he does it."
+#~ msgstr ""
+#~ "Vous pouvez choisir d'activer cette notification ou non. Si oui, vous "
+#~ "pouvez choisir de la recevoir seulement la première fois que le fichier "
+#~ "est téléchargé ou à chaque fois."
+
+#~ msgid "A new file for you is available on %site_name%"
+#~ msgstr "Un fichier est disponible sur votre espace client de %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello %file_owner%,</p><p>A new file (%file_title%) has been made "
+#~ "available for you in our customer area. You can download it by following "
+#~ "the link: %file_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url"
+#~ "%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %file_owner%,</p><p>Un nouveau fichier (%file_title%) a été "
+#~ "déposé dans votre espace client. Vous pouvez le télécharger en suivant le "
+#~ "lien : %file_url%</p><p>Cordialement,</p><p>%from_name%<br/>%site_url%</p>"
+
+#~ msgid "New file download on %site_name%"
+#~ msgstr "Nouveau téléchargement sur %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello,</p><p>A file (%file_title%) has been downloaded by "
+#~ "%download_user%.</p><p>Best regards,</p><p>The customer area plugin<br/>"
+#~ "%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour,</p><p>Un fichier (%file_title%) a été téléchargé par "
+#~ "%download_user%.</p><p>Cordialement,</p><p>Votre plugin zone client<br/>"
+#~ "%site_url%</p>"
+
+#~ msgid ""
+#~ "Define here the email that will get sent to a user when a new private "
+#~ "file is uploaded for him."
+#~ msgstr ""
+#~ "Définissez ici le courriel envoyé à un utilisateur quand un nouveau "
+#~ "fichier est déposé pour lui."
+
+#~ msgid "Show after post"
+#~ msgstr "Après l'article"
+
+#~ msgid ""
+#~ "Show the view and download links below the post content for a customer "
+#~ "file."
+#~ msgstr ""
+#~ "Afficher les liens pour voir ou télécharger un fichier sous le contenu "
+#~ "d'un article représentant un fichier client."
+
+#~ msgid "Hello"
+#~ msgstr "Bonjour"
+
+#~ msgid "You must login to access your own customer area."
+#~ msgstr "Vous devez être connecté pour accéder à votre espace client"
+
+#~ msgid "Hello %s,"
+#~ msgstr "Bonjour %s,"
+
+#~ msgid "download-file"
+#~ msgstr "télécharger-fichier"
+
+#~ msgid "view-file"
+#~ msgstr "voir-fichier"
+
+#~ msgid "You are not authorized to view this file"
+#~ msgstr "Vous n'êtes pas autorisé à voir ce fichier"
+
+#~ msgid "You are not authorized to access this file"
+#~ msgstr "Vous n'êtes pas autorisé à accéder à ce fichier"
+
+#~ msgid "Customer Files"
+#~ msgstr "Fichiers clients"
+
+#~ msgid "Customer File"
+#~ msgstr "Fichier client"
+
+#~ msgid "Add New"
+#~ msgstr "Ajouter un nouveau"
+
+#~ msgid "Add New Customer File"
+#~ msgstr "Ajouter un fichier client"
+
+#~ msgid "Edit Customer File"
+#~ msgstr "Editer un fichier client"
+
+#~ msgid "New Customer File"
+#~ msgstr "Nouveau fichier client"
+
+#~ msgid "View Customer File"
+#~ msgstr "Voir le fichier client"
+
+#~ msgid "Search Customer Files"
+#~ msgstr "Chercher des fichiers privés : %s"
+
+#~ msgid "No customer files found"
+#~ msgstr "Aucun fichier client trouvé"
+
+#~ msgid "No customer files found in Trash"
+#~ msgstr "Aucun fichier client trouvé dans la corbeille"
+
+#~ msgid "Parent Customer File:"
+#~ msgstr "Fichier client parent :"
+
+#~ msgid "File Categories"
+#~ msgstr "Catégories de fichier"
+
+#~ msgid "File Category"
+#~ msgstr "Catégorie de fichier"
+
+#~ msgid "Search File Categories"
+#~ msgstr "Chercher des catégories de fichier"
+
+#~ msgid "Popular File Categories"
+#~ msgstr "Catégories de fichier populaires"
+
+#~ msgid "All File Categories"
+#~ msgstr "Toutes les catégories de fichier"
+
+#~ msgid "Parent File Category"
+#~ msgstr "Catégorie de fichier parente"
+
+#~ msgid "Parent File Category:"
+#~ msgstr "Catégorie de fichier parente :"
+
+#~ msgid "Edit File Category"
+#~ msgstr "Modifier la catégorie de fichier"
+
+#~ msgid "Update File Category"
+#~ msgstr "Mettre à jour la catégorie de fichier"
+
+#~ msgid "Add New File Category"
+#~ msgstr "Ajouter une catégorie de fichier"
+
+#~ msgid "New File Category"
+#~ msgstr "Nouvelle catégorie de fichier"
+
+#~ msgid "Separate file categories with commas"
+#~ msgstr "Séparez les catégories de fichier avec des virgules"
+
+#~ msgid "Add or remove file categories"
+#~ msgstr "Ajouter ou enlever des catégories de fichier"
+
+#~ msgid "Choose from the most used file categories"
+#~ msgstr "Choisir parmi les catégories de fichier les plus courantes"
+
+#~ msgid "private-file-category"
+#~ msgstr "catégorie-fichier-privé"
+
+#~ msgid "private-file"
+#~ msgstr "fichier-privé"
+
+#~ msgid "unknown"
+#~ msgstr "inconnu"
+
+#~ msgid "Owner"
+#~ msgstr "Propriétaire"
+
+#~ msgid "Nobody"
+#~ msgstr "Personne"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
+
+#~ msgid "Current file:"
+#~ msgstr "Fichier actuel :"
+
+#~ msgid "Upload a file"
+#~ msgstr "Téléverser un fichier"
+
+#~ msgid "This file type is not allowed. You can only upload: %s"
+#~ msgstr ""
+#~ "Ce type de fichier n'est pas autorisé. Vous pouvez seulement téléverser : "
+#~ "%s"
+
+#~ msgid "An unknown error happened while uploading your file."
+#~ msgstr ""
+#~ "Une erreur inconnue est survenue lors du téléversement de votre fichier."
+
+#~ msgid "An error happened while uploading your file: %s"
+#~ msgstr "Une erreur est survenue lors du téléversement de votre fichier : %s"
+
+#~ msgid "Associated file"
+#~ msgstr "Fichier associé"
+
+#~ msgid "View"
+#~ msgstr "Voir"
+
+#~ msgid "Download"
+#~ msgstr "Télécharger"
+
+#~ msgid "You currently have no files."
+#~ msgstr "Vous n'avez aucun fichier actuellement."
+
+#~ msgid "Your files"
+#~ msgstr "Vos fichiers"
+
+#~ msgid "Added on %s"
+#~ msgstr "Ajouté le %s"
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "Category"
+#~ msgstr "Catégorie"
+
+#~ msgid "Houston&hellip; we have a problem!"
+#~ msgstr "Houston&hellip; on a un problème !"
+
+#~ msgid ""
+#~ "We have not found what you are looking for. You could simply close this "
+#~ "window out of rage, but you might also want to have a look at the rest of "
+#~ "the website. I am sure you won' be disappointed again. Promise."
+#~ msgstr ""
+#~ "Nous n'avons pas trouvé ce que vous cherchiez. Pour sûr, vous devez être "
+#~ "en pétard, mais vous devriez parcourir le reste du site, vous ne serez "
+#~ "pas déçu de nouveau, promis."
+
+#~ msgid "Browse our blog"
+#~ msgstr "Parcourir le blog"
+
+#~ msgid "By Date"
+#~ msgstr "Par date"
+
+#~ msgid "By Tag"
+#~ msgstr "Par étiquette"
+
+#~ msgid "Filter our work"
+#~ msgstr "Filtrer les projets"
+
+#~ msgid "All projects"
+#~ msgstr "Tous les projets"
+
+#~ msgid "By date"
+#~ msgstr "Par date"
+
+#~ msgid "By type"
+#~ msgstr "Par type"
+
+#~ msgid "Browse our archives"
+#~ msgstr "Parcourez nos archives"
+
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Archives du jour : %s"
+
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Archives du mois : %s"
+
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Archives de l'année : %s"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Archives"
+#~ msgstr "Archives"
+
+#~ msgid "Category Archives: %s"
+#~ msgstr "Archives de la catégorie : %s"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "&laquo; Older Comments"
+#~ msgstr "Commentaires plus anciens &laquo;"
+
+#~ msgid "Newer Comments &raquo;"
+#~ msgstr "Commentaires plus récents &raquo;"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Les commentaires ne sont plus possibles."
+
+#~ msgid "Leave a comment"
+#~ msgstr "Laisser un commentaire"
+
+#~ msgid "Learn more about &laquo; %s &raquo;"
+#~ msgstr "En savoir plus sur &laquo; %s &raquo;"
+
+#~ msgid "Filed under: "
+#~ msgstr "Classé dans : "
+
+#~ msgid "<li>&raquo; Tagged: "
+#~ msgstr "<li>&raquo; Etiqueté : "
+
+#~ msgid "Permalink to %s"
+#~ msgstr "Lien permanent vers %s"
+
+#~ msgid "Read more"
+#~ msgstr "En savoir plus"
+
+#~ msgid "Edit this post"
+#~ msgstr "Editer ce post"
+
+#~ msgid "Get in touch"
+#~ msgstr "Contactez-nous"
+
+#~ msgid "+33 6 50 21 23 94"
+#~ msgstr "06 50 21 23 94"
+
+#~ msgid "hello@marvinlabs.com"
+#~ msgstr "bonjour@marvinlabs.com"
+
+#~ msgid "+1 us on Google+"
+#~ msgstr "+1 sur Google+"
+
+#~ msgid "Like us on Facebook"
+#~ msgstr "Aimez-nous sur Facebook"
+
+#~ msgid "Follow us on Twitter"
+#~ msgstr "Suivez-nous sur Twitter"
+
+#~ msgid "Use our code from GitHub"
+#~ msgstr "Utilisez notre code publié sur GitHub"
+
+#~ msgid "We help fellow developers on StackOverflow"
+#~ msgstr "Nous aidons nos collègues développeurs sur StackOverflow"
+
+#~ msgid "Get our free WordPress plugins & themes"
+#~ msgstr "Téléchargez nos plugins et thèmes gratuits pour WordPress"
+
+#~ msgid "Main navigation menu"
+#~ msgstr "Menu de navigation principal"
+
+#~ msgid "Work"
+#~ msgstr "Projet"
+
+#~ msgid "work"
+#~ msgstr "projet"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Types"
+#~ msgstr "Types"
+
+#~ msgid "work-type"
+#~ msgstr "type-de-projet"
+
+#~ msgid "Skill"
+#~ msgstr "Compétence"
+
+#~ msgid "Skills"
+#~ msgstr "Compétences"
+
+#~ msgid "work-skill"
+#~ msgstr "competence"
+
+#~ msgid "Technology"
+#~ msgstr "Technologie"
+
+#~ msgid "Technologies"
+#~ msgstr "Technologies"
+
+#~ msgid "work-technology"
+#~ msgstr "technologie"
+
+#~ msgid "work-category"
+#~ msgstr "catégorie-projet"
+
+#~ msgid "Single blog post"
+#~ msgstr "Post de blog unique"
+
+#~ msgid "Blog archive page"
+#~ msgstr "Archive du blog"
+
+#~ msgid "Footer, #getintouch"
+#~ msgstr "Footer, #getintouch"
+
+#~ msgid "Footer, #bottom"
+#~ msgstr "Footer, #bottom"
+
+#~ msgid "Page %s"
+#~ msgstr "Page %s"
+
+#~ msgid "About this project"
+#~ msgstr "A propos de ce projet"
+
+#~ msgid "Project launched in %s"
+#~ msgstr "Projet lancé en %s"
+
+#~ msgid "View the live website"
+#~ msgstr "Visiter le site en ligne"
+
+#~ msgid "Get the app on Google Play"
+#~ msgstr "Télécharger l'application sur GooglePlay"
+
+#~ msgid "Get the app on Apple's AppStore"
+#~ msgstr "Télécharger l'application sur l'AppStore d'Apple"
+
+#~ msgid "Get the WordPress plugin"
+#~ msgstr "Téléchargez le plugin WordPress"
+
+#~ msgid "Project type: "
+#~ msgstr "Type de projet : "
+
+#~ msgid "Skills: "
+#~ msgstr "Compétences : "
+
+#~ msgid "Technologies: "
+#~ msgstr "Technologies : "
+
+#~ msgid "You like this project and think we can do a good job with yours?"
+#~ msgstr ""
+#~ "Vous aimez ce projet et pensez que nous pourrions faire du bon travail "
+#~ "pour le votre ?"
+
+#~ msgid "Request a quote"
+#~ msgstr "Demandez un devis"
+
+#~ msgid "About this post"
+#~ msgstr "A propos de cet article"
+
+#~ msgid "Posted on: "
+#~ msgstr "Posté le :"
+
+#~ msgid "Tag Archives: %s"
+#~ msgstr "Archives d'étiquette : %s"
+
+#~ msgid "Our projects of type: %s"
+#~ msgstr "Nos projets de type : %s"
+
+#~ msgid "%1$s on %2$s"
+#~ msgstr "%1$s sur %2$s"
+
+#~ msgid "Posts navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+#~ msgstr "<span class=\"meta-nav\">&laquo;</span> Articles plus anciens"
+
+#~ msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+#~ msgstr "Articles plus récents <span class=\"meta-nav\">&raquo;</span>"
+
+#~ msgid "show details"
+#~ msgstr "afficher les détails"
+
+#~ msgid "See all of our work"
+#~ msgstr "Voir tous nos projets"
+
+#~ msgid ""
+#~ "All content on this website is the property of &laquo;Constant le "
+#~ "jardinier&raquo; and may not be used without permission"
+#~ msgstr ""
+#~ "Tout le contenu sur ce site est la propriété exclusive de &laquo;Constant "
+#~ "le jardinier&raquo; et ne peut être utilisé sans permission"
+
+#~ msgid "&copy; Constant le jardinier"
+#~ msgstr "&copy; Constant le jardinier"
+
+#~ msgid ""
+#~ "Designed and carried out by MarvinLabs, digital creation studio in Basque "
+#~ "country, France (Biarritz, Anglet, Bayonne)"
+#~ msgstr ""
+#~ "Imaginé et réalisé par MarvinLabs, studio de création numérique au pays "
+#~ "basque (Biarritz, Anglet, Bayonne)"
+
+#~ msgid "A website planted with care by MarvinLabs"
+#~ msgstr "Un site délicatement planté par MarvinLabs"
+
+#~ msgid "and"
+#~ msgstr "et"
+
+#~ msgid "Paintings by Marilou Laure"
+#~ msgstr "Peintures par Marilou Laure"
+
+#~ msgid "illustrated with taste by Marilou Laure"
+#~ msgstr "illustré avec goût par Marilou Laure"
+
+#~ msgid "Left footer navigation"
+#~ msgstr "Navigation bas gauche"
+
+#~ msgid "Right footer navigation"
+#~ msgstr "Navigation bas droite"
+
+#~ msgid "Services"
+#~ msgstr "Services"
+
+#~ msgid "Service"
+#~ msgstr "Service"
+
+#~ msgid "Footer Widgets 1 (Left)"
+#~ msgstr "Footer Widgets 1 (Left)"
+
+#~ msgid "Footer Widgets 2 (Middle)"
+#~ msgstr "Footer Widgets 2 (Middle)"
+
+#~ msgid "Footer Widgets 3 (Right)"
+#~ msgstr "Footer Widgets 3 (Right)"
+
+#~ msgid "Nothing here"
+#~ msgstr "Rien ici"
+
+#~ msgid "You should not even be on this page!"
+#~ msgstr "Vous ne devriez même pas vous retrouver sur cette page !"

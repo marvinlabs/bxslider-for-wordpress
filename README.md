@@ -1,17 +1,17 @@
-=== bxSlider integration for WordPress ===
-Contributors: vprat, marvinlabs
-Donate link: http://www.marvinlabs.com/donate/
-Tags: wordpress, gallery, slider, bxslider, slideshow, 
-Requires at least: 3.5
-Tested up to: 3.9
-Stable tag: 1.6.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# bxSlider integration for WordPress #
+**Contributors:** vprat, marvinlabs  
+**Donate link:** http://www.marvinlabs.com/donate/  
+**Tags:** wordpress, gallery, slider, bxslider, slideshow,   
+**Requires at least:** 3.5  
+**Tested up to:** 3.9  
+**Stable tag:** 1.6.0
+**License:** GPLv2 or later  
+**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
 bxSlider for WordPress integrates the great responsive content slider "bxSlider jQuery plugin" in your very own WordPress
 site.
 
-== Description ==
+## Description ##
 
 bxSlider for WordPress integrates the great responsive content slider [bxSlider jQuery plugin](http://bxslider.com/) in
 your very own WordPress site. Galleries are turned into beautiful sliders, but you can also roll you own sliders using 
@@ -39,13 +39,13 @@ If you want to get updates about our plugins, you can:
 * [Follow us on Facebook](http://www.facebook.com/studio.marvinlabs)
 
 
-== Features ==
+## Features ##
 
 * [gallery] and [bxgallery] shortcodes
 * [slider] and [bxslider] shortcodes
 * Template functions
 
-= [gallery] and [bxgallery] shortcodes =
+### [gallery] and [bxgallery] shortcodes ###
 
 You can use the default WordPress `[gallery]` shortcode or use the additional `[bxgallery]` shortcode to create awesome 
 dynamic galleries. These shortcodes take the following parameters:
@@ -58,18 +58,18 @@ will be excluded from the gallery. If you omit this parameter, it will default t
 page. 
 - **hide_carousel** *[1 or 0]*: if set to 1, the carousel with thumbnails will not be shown. If you omit this 
 parameter, it will default to the value set in the plugin settings page. 
-- **duration** *integer*: the duration of slides in milliseconds 
-- **speed** *integer*: the speed of transitions in milliseconds 
-- **extra_options** *comma-separated list of javascript options to be passed to bxSlider directly*: this allows to 
+**- **duration** *integer*:** the duration of slides in milliseconds   
+**- **speed** *integer*:** the speed of transitions in milliseconds   
+**- **extra_options** *comma-separated list of javascript options to be passed to bxSlider directly*:** this allows to   
 directly specify some options for bxSlider if those options are not yet provided as settings or shortcode parameters by
-our plugin. For instance: [bxgallery extra_options="pager: false, "]
-- **transition** *'fade', 'horizontal' or 'vertical'*: the type of transition between slides
+**our plugin. For instance:** [bxgallery extra_options="pager: false, "]  
+**- **transition** *'fade', 'horizontal' or 'vertical'*:** the type of transition between slides  
 - **adaptive_height** *[1 or 0]*: if set to 1, the height of the slider/gallery will automatically adjust to the content
 of the current slide
 - **auto_start** *[1 or 0]*: if set to 1, the slideshow will automatically start after the page has loaded.
 - **shuffle** *[1 or 0]*: if set to 1, the images will be shown in random order
 				
-= [slider] and [bxslider] shortcodes =
+### [slider] and [bxslider] shortcodes ###
 
 You can also build your own custom sliders, with any content you'd like in them. 
 
@@ -86,17 +86,17 @@ You can also build your own custom sliders, with any content you'd like in them.
     
 The shortcode accepts the following parameters:
 
-- **duration** *integer*: the duration of slides in milliseconds 
-- **speed** *integer*: the speed of transitions in milliseconds 
-- **extra_options** *comma-separated list of javascript options to be passed to bxSlider directly*: this allows to 
+**- **duration** *integer*:** the duration of slides in milliseconds   
+**- **speed** *integer*:** the speed of transitions in milliseconds   
+**- **extra_options** *comma-separated list of javascript options to be passed to bxSlider directly*:** this allows to   
 directly specify some options for bxSlider if those options are not yet provided as settings or shortcode parameters by
-our plugin. For instance: [bxgallery extra_options="pager: false, "]
-- **transition** *'fade', 'horizontal' or 'vertical'*: the type of transition between slides
+**our plugin. For instance:** [bxgallery extra_options="pager: false, "]  
+**- **transition** *'fade', 'horizontal' or 'vertical'*:** the type of transition between slides  
 - **adaptive_height** *[1 or 0]*: if set to 1, the height of the slider/gallery will automatically adjust to the content
 of the current slide
 - **auto_start** *[1 or 0]*: if set to 1, the slideshow will automatically start after the page has loaded.
 
-= Template functions =
+### Template functions ###
 
 The plugin also provides template functions to be used in your theme files. Those functions are all static methods of 
 the class `BXSG_ThemeUtils`. To be safe, in case the plugin is not active, you should check that the class exists 
@@ -114,24 +114,26 @@ before calling the functions:
 				'exclude_featured' => 1 
 			) ); ?>
 
-> Hint: you can pass the shortcode parameters as an array to customize the output 
+**> Hint:** you can pass the shortcode parameters as an array to customize the output   
 	
-== Upgrade Notice ==
+## Upgrade Notice ##
 
 Nothing worth mentionning yet. You might visit the settings page though to adjust new default settings values. 
 
-== Installation ==
+## Installation ##
 
 Nothing special, just upload the files, activate and you can then visit the settings page if you want. Really, it's 
 just like any other simple plugin.
 
-== Screenshots ==
+## Screenshots ##
 
-1. A standard WordPress gallery turned into a slider with a thumbnail carousel.
+### 1. A standard WordPress gallery turned into a slider with a thumbnail carousel. ###
+![A standard WordPress gallery turned into a slider with a thumbnail carousel.](http://plugins.svn.wordpress.org/bxslider-integration-for-wordpress/assets/screenshot-1.jpg)
 
-== Frequently Asked Questions ==
 
-= Why isn't bxSlider's XXXXX option available in the plugin's settings page or shortcode? =
+## Frequently Asked Questions ##
+
+### Why isn't bxSlider's XXXXX option available in the plugin's settings page or shortcode? ###
 
 I have not yet found the use of all the bxSlider options. If you need to access any of them, please open a new topic in 
 the plugin support forum, I will add that option as soon as possible.
@@ -139,84 +141,84 @@ the plugin support forum, I will add that option as soon as possible.
 You can in the meantime use the shortcode parameter "extra_options" (or the setting to have those parameters set for 
 every gallery/slider).  
 
-== Changelog ==
+## Changelog ##
 
-= 1.7.0 (2015/02/27) =
+### 1.7.0 (2015/02/27) ###
 
 * New: Better structure for the plugin sources and release system
 
-= 1.6.0 (2014/05/15) =
+### 1.6.0 (2014/05/15) ###
 
 * New: Added a parameter to the gallery and bx-gallery shortcodes to specify image size and thumbnail size to use (respectively 
 defaults to 'full' and 'thumbnail')
 
-= 1.5.3 (2014/04/23) =
+### 1.5.3 (2014/04/23) ###
 
 * New: Tested with WordPress 3.9
 * New: Updated bxSlider script from version 4.1 to version 4.1.2
 * Fix: a javascript syntax error on sliders
 
-= 1.5.2 (2014/04/10) =
+### 1.5.2 (2014/04/10) ###
 
 * The sliders get assigned to a JS variable so they can be re-used somewhere else (for instance to reload the slider)
 
-= 1.5.1 (2014/01/17) =
+### 1.5.1 (2014/01/17) ###
 
 * Added an option to avoid adding the bxSlider javascript when the theme (or another plugin) already includes it
 
-= 1.5.0 (2013/11/06) =
+### 1.5.0 (2013/11/06) ###
 
 * Added a shortcode to shuffle the gallery images.
 * Fixed URLs when using an alternate wp-content folder
 
-= 1.4.2 (2013/08/20) =
+### 1.4.2 (2013/08/20) ###
 
 * Fixed typo in javascript and css links. 
 
-= 1.4.1 (2013/07/29) =
+### 1.4.1 (2013/07/29) ###
 
 * Fixed bug where some settings from 1.4.0 were switched between slider and gallery shortcodes. 
 
-= 1.4.0 (2013/07/17) =
+### 1.4.0 (2013/07/17) ###
 
 * Added an option to set the duration of slides 
 * Added an option to set the speed of transitions
 * Added an advanced option to directly inject javascript bxSlider options 
 
-= 1.3.3 (2013/05/06) =
+### 1.3.3 (2013/05/06) ###
 
 * Fixed bug with translations not properly loaded
 * Added French translation
 
-= 1.3.2 (2013/04/30) =
+### 1.3.2 (2013/04/30) ###
 
 * Updated the documentation
 
-= 1.3.1 (2013/04/25) =
+### 1.3.1 (2013/04/25) ###
 
 * Fix for an error occuring on the latest WordPress 3.6 build
 
-= 1.3.0 (2013/04/11) =
+### 1.3.0 (2013/04/11) ###
 
 * Added an option and a shortcode parameter to set the transition type (fade/slide horizontally/fade vertically)
 
-= 1.2.0 (2013/04/09) =
+### 1.2.0 (2013/04/09) ###
 
 * Added an option and a shortcode parameter to enable/disable adaptive height 
 * Added an option and a shortcode parameter to enable/disable slideshow automatic start
 
-= 1.1.1 (2013/04/08) =
+### 1.1.1 (2013/04/08) ###
 
 * Fixed a bug on activation ([function.array-merge]: Argument #2 is not an array in bxslider-integration/includes/core-classes/settings.class.php)
 
-= 1.1.0 (2013/03/29) =
+### 1.1.0 (2013/03/29) ###
 
 * Added a template function to output the post gallery from within a theme
 * Added an option to exclude the post featured image from its gallery
 * Added a generic slider shortcode
 * Corrected a bug in attachment listing (images incorrectly pulled)
 
-= 1.0.0 (2013/03/29) =
+### 1.0.0 (2013/03/29) ###
 
 * First plugin release. 
 * Replaces the default WordPress galleries with nice ones using the bxSlider jQuery plugin
