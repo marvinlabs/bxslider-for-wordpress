@@ -557,7 +557,7 @@ if ( !class_exists('BXSG_Settings')) :
             if ( !in_array($input[$option_id], $enum_values))
             {
                 add_settings_error($option_id, 'settings-errors',
-                    $option_id . ': ' . $input[$option_id] . __(' is not a valid value', 'cuar'), 'error');
+                    $option_id . ': ' . $input[$option_id] . __(' is not a valid value', 'bxsg'), 'error');
 
                 $validated[$option_id] = $this->default_options[$option_id];
 
@@ -582,7 +582,7 @@ if ( !class_exists('BXSG_Settings')) :
             if ( !is_int(intval($input[$option_id])))
             {
                 add_settings_error($option_id, 'settings-errors',
-                    $option_id . ': ' . __('must be an integer', 'cuar'), 'error');
+                    $option_id . ': ' . __('must be an integer', 'bxsg'), 'error');
 
                 $validated[$option_id] = $this->default_options[$option_id];
 
@@ -593,7 +593,7 @@ if ( !class_exists('BXSG_Settings')) :
             if ($min !== null && $input[$option_id] < $min)
             {
                 add_settings_error($option_id, 'settings-errors',
-                    $option_id . ': ' . sprintf(__('must be greater than %s', 'cuar'), $min), 'error');
+                    $option_id . ': ' . sprintf(__('must be greater than %s', 'bxsg'), $min), 'error');
 
                 $validated[$option_id] = $this->default_options[$option_id];
 
@@ -604,7 +604,7 @@ if ( !class_exists('BXSG_Settings')) :
             if ($max !== null && $input[$option_id] > $max)
             {
                 add_settings_error($option_id, 'settings-errors',
-                    $option_id . ': ' . sprintf(__('must be lower than %s', 'cuar'), $max), 'error');
+                    $option_id . ': ' . sprintf(__('must be lower than %s', 'bxsg'), $max), 'error');
 
                 $validated[$option_id] = $this->default_options[$option_id];
 

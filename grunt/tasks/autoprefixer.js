@@ -7,7 +7,6 @@ module.exports = function (grunt, options) {
         files.push(filter);
     }
 
-
     return {
         options: {
             browsers: ['last 3 versions, > 2%']

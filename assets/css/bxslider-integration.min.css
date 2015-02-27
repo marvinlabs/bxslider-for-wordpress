@@ -1,3 +1,7 @@
+/*! 
+    BxSlider Integration for WordPress
+    WordPress plugin written by Vincent Prat, Marvinlabs (www.marvinlabs.com)
+*/
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
  * http://bxslider.com
@@ -46,7 +50,7 @@
 /* LOADER */
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url(images/bx_loader.gif) center center no-repeat #ffffff;
+  background: url(../img/bx_loader.gif) center center no-repeat #ffffff;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -88,11 +92,11 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
   left: 10px;
-  background: url(images/controls.png) no-repeat 0 -32px;
+  background: url(../img/controls.png) no-repeat 0 -32px;
 }
 .bx-wrapper .bx-next {
   right: 10px;
-  background: url(images/controls.png) no-repeat -43px -32px;
+  background: url(../img/controls.png) no-repeat -43px -32px;
 }
 .bx-wrapper .bx-prev:hover {
   background-position: 0 0;
@@ -123,7 +127,7 @@
   width: 10px;
   height: 11px;
   outline: 0;
-  background: url(images/controls.png) -86px -11px no-repeat;
+  background: url(../img/controls.png) -86px -11px no-repeat;
   margin: 0 3px;
 }
 .bx-wrapper .bx-controls-auto .bx-start:hover,
@@ -136,7 +140,7 @@
   width: 9px;
   height: 11px;
   outline: 0;
-  background: url(images/controls.png) -86px -44px no-repeat;
+  background: url(../img/controls.png) -86px -44px no-repeat;
   margin: 0 3px;
 }
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
@@ -168,11 +172,6 @@
   font-size: .85em;
   padding: 10px;
 }
-/*# sourceMappingURL=/wp-content/plugins/bxslider-integration/assets/css/bxslider-integration.min.css.map */
-/*! 
-    BxSlider Integration for WordPress
-    WordPress plugin written by Vincent Prat, Marvinlabs (www.marvinlabs.com)
-*/
 .bxslider-gallery.adaptive-height-off .gallery-wrapper .bxslider img {
   height: 500px;
   width: auto;

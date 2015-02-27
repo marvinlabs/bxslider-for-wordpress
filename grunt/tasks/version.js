@@ -1,27 +1,4 @@
 module.exports = function (grunt, options) {
-
-/*
-    var additionalCommitFiles = [];
-    var assetTypes = ["scripts", "styles"];
-
-    for (var j=0; j<assetTypes.length; j++) {
-        var config = options.assets[assetTypes[j]];
-
-        var count = config.length;
-        for (var i = 0; i < count; ++i) {
-            var asset = config[i];
-            var outputPath = asset.output.path + "/" + asset.output.file;
-
-            additionalCommitFiles.push(outputPath);
-        }
-    }
-*/
-
-    "package.json",
-        "readme.txt",
-        "README.md",
-        "bxslider-integration.php"
-
     return {
         options: {
         },

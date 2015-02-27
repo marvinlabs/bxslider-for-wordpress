@@ -1,10 +1,8 @@
 {
     "versionFiles" : [
         "package.json",
-        "bxslider-integration.php"
-    ],
-    "commitFiles": [
-        "package.json",
+        "readme.txt",
+        "README.md",
         "bxslider-integration.php"
     ]
 }
