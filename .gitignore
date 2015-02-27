@@ -215,3 +215,11 @@ pip-log.txt
 .mr.developer.cfg
 .svn
 .sass-cache
+
+
+#############
+## NPM/Grunt
+#############
+
+node_modules
+.idea/
