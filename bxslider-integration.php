@@ -29,11 +29,11 @@ Domain Path: /languages
 
 define( 'BXSG_PLUGIN_DIR', 		plugin_dir_path( __FILE__ ) );
 define( 'BXSG_LANGUAGE_DIR', 	'bxslider-integration/languages' );
-define( 'BXSG_INCLUDES_DIR', 	BXSG_PLUGIN_DIR . '/includes' );
+define( 'BXSG_INCLUDES_DIR', 	BXSG_PLUGIN_DIR . '/src/php' );
 
 define( 'BXSG_PLUGIN_URL', 		WP_PLUGIN_URL . '/bxslider-integration/' );
-define( 'BXSG_SCRIPTS_URL', 	BXSG_PLUGIN_URL . 'scripts' );
-define( 'BXSG_STYLES_URL', 		BXSG_PLUGIN_URL . 'styles' );
+define( 'BXSG_SCRIPTS_URL', 	BXSG_PLUGIN_URL . 'assets/js' );
+define( 'BXSG_STYLES_URL', 		BXSG_PLUGIN_URL . 'assets/css' );
 
 include_once( BXSG_INCLUDES_DIR . '/plugin.class.php' );
 include_once( BXSG_INCLUDES_DIR . '/theme-utils.class.php' );
