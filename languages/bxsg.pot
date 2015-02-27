@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the bxSlider integration for WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: bxSlider integration for WordPress 1.6.1\n"
+"Project-Id-Version: bxSlider integration for WordPress 1.6.2\n"
 "Report-Msgid-Bugs-To: "
 "http://wordpress.org/support/plugin/bxslider-integration\n"
-"POT-Creation-Date: 2015-02-27 14:45:42+00:00\n"
+"POT-Creation-Date: 2015-02-27 14:55:21+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
