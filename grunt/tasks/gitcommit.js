@@ -10,10 +10,12 @@ module.exports = function (grunt, options) {
         }
     }
 
+    var currentPackage = grunt.file.readJSON('package.json');
+
     return {
         post_release: {
             options: {
-                message: "Preparing release v" + options.pkg.version
+                message: "Preparing release v" + currentPackage.version
             },
             files: {
                 versions: options.release.versionFiles,

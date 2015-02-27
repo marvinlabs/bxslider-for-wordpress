@@ -6,7 +6,7 @@
     "poPath" : "languages",
     "sources" : [
         "bxslider-integration.php",
-        "src/php/**/*.php"
+        "src/php/.*"
     ],
     "copyright" : "(c) Vincent Mimoun-Prat, MarvinLabs {{year}}",
     "keywords" : [
