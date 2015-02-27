@@ -19,7 +19,8 @@ module.exports = function (grunt) {
                 "makepot": "grunt-wp-i18n",
                 "addtextdomain": "grunt-wp-i18n",
                 "bump-only": "grunt-bump",
-                "bump-commit": "grunt-bump"
+                "bump-commit": "grunt-bump",
+                "replace": "grunt-text-replace"
             }
         }
     });
@@ -34,10 +35,14 @@ module.exports = function (grunt) {
     grunt.registerTask("release", "Release task", function (mode) {
         grunt.task.run(
             "checkpending",
-            "bump-only:" + mode,
+            "version::" + mode,
             "dist",
-            "bump-commit",
             "compress:build");
+    });
+
+    // Task to replace the path to images in the bxSlider CSS
+    grunt.registerTask("update_libs", "Prepare the libraries", function (mode) {
+        grunt.task.run("copy:bxslider_css", "replace:bxslider_css");
     });
 };
 

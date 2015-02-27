@@ -94,7 +94,7 @@ if ( !class_exists('BXSG_Plugin')) :
             if ($this->get_option(BXSG_Settings::$OPTION_INCLUDE_JS))
             {
                 wp_enqueue_script(
-                    'bxslider-integration',
+                    'jquery.bxslider',
                     BXSG_SCRIPTS_URL . '/bxslider-integration.min.js',
                     array('jquery'));
             }
@@ -113,7 +113,7 @@ if ( !class_exists('BXSG_Plugin')) :
             if ($this->get_option(BXSG_Settings::$OPTION_INCLUDE_CSS))
             {
                 wp_enqueue_style(
-                    'bxslider-integration',
+                    'jquery.bxslider',
                     BXSG_STYLES_URL . '/bxslider-integration.min.css');
             }
         }
