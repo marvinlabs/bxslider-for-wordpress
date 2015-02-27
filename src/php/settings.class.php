@@ -752,6 +752,8 @@ if ( !class_exists('BXSG_Settings')) :
 // 		 echo 'default options:'; var_dump( $this->default_options );
 // 		 echo 'current options:'; var_dump( $current_options );
 // 		 echo 'final options:'; var_dump( $this->options );
+
+            __('Testing POT', 'bxsg');
         }
 
         public static $OPTIONS_PAGE_SLUG = 'bxsg-settings';
