@@ -1,14 +1,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bxSlider for WordPress\n"
-"POT-Creation-Date: 2014-08-11 09:55+0100\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/bxslider-"
+"integration\n"
+"POT-Creation-Date: 2015-02-27 17:56:04+00:00\n"
 "PO-Revision-Date: 2014-08-11 14:00+0100\n"
 "Last-Translator: \n"
 "Language-Team: MarvinLabs\n"
-"Language: FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: FR\n"
 "X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
@@ -17,36 +19,36 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../includes/settings.class.php:59 ../includes/settings.class.php:60
-#: ../includes/settings.view.php:22
+#: src/php/settings.class.php:66 src/php/settings.class.php:67
+#: src/php/settings.view.php:22
 msgid "bxSlider integration"
 msgstr "bxSlider integrisanje"
 
-#: ../includes/settings.class.php:82
+#: src/php/settings.class.php:91
 msgid "General Settings"
 msgstr "Opšte postavke"
 
-#: ../includes/settings.class.php:89
+#: src/php/settings.class.php:98
 msgid "Include CSS"
 msgstr "Uključi CSS"
 
-#: ../includes/settings.class.php:96
+#: src/php/settings.class.php:105
 msgid "Include the default stylesheet."
 msgstr "Uključi podrazumevanu datoteku sa stilovima."
 
-#: ../includes/settings.class.php:98
+#: src/php/settings.class.php:107
 msgid "If not, you should style the slider yourself in your theme."
 msgstr "Ako nećete, sami treba da stilizujete slajder u svojoj temi."
 
-#: ../includes/settings.class.php:104
+#: src/php/settings.class.php:114
 msgid "Include JS"
 msgstr "Obuhvati JS"
 
-#: ../includes/settings.class.php:111
+#: src/php/settings.class.php:121
 msgid "Include the bxSlider script."
 msgstr "Obuhvati bxSlider script."
 
-#: ../includes/settings.class.php:113
+#: src/php/settings.class.php:123
 msgid ""
 "Uncheck this option only if your theme already provides a compatible "
 "bxSlider javascript. Else, leave it on."
@@ -54,28 +56,28 @@ msgstr ""
 "Poništite štikliranje ove opcije isključivo ako vaša tema već obezbeđuje "
 "kompatibilan bxSlider javascript. U suprotnom, ostavite opciju štikliranu."
 
-#: ../includes/settings.class.php:119
+#: src/php/settings.class.php:131
 msgid "Slide transitions"
 msgstr "Prelaz s jednog slajda na drugi"
 
-#: ../includes/settings.class.php:126
+#: src/php/settings.class.php:138
 msgid "Fade"
 msgstr "Postepeno bledi"
 
-#: ../includes/settings.class.php:127
+#: src/php/settings.class.php:139
 msgid "Slide horizontally"
 msgstr "Kliza horizontalno"
 
-#: ../includes/settings.class.php:128
+#: src/php/settings.class.php:140
 msgid "Slide vertically"
 msgstr "Kliza vertikalno"
 
-#: ../includes/settings.class.php:130
+#: src/php/settings.class.php:143
 msgid ""
 "The default type of transition to use to go from one slide to another one. "
 msgstr "Podrazumevani tip prelaza s jednog slajda na drugi."
 
-#: ../includes/settings.class.php:131
+#: src/php/settings.class.php:144
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>transition=fade</code>, <code>transition=horizontal</code> or "
@@ -85,20 +87,20 @@ msgstr ""
 "<code>transition=fade</code>, <code>transition=horizontal</code>ili "
 "<code>transition=vertical</code>."
 
-#: ../includes/settings.class.php:138
+#: src/php/settings.class.php:153
 msgid "Gallery Shortcodes"
 msgstr "Kratki kodovi galerije"
 
-#: ../includes/settings.class.php:145
+#: src/php/settings.class.php:160
 msgid "Default WordPress galleries"
 msgstr "Podrazumevane WordPress galerije"
 
-#: ../includes/settings.class.php:152
+#: src/php/settings.class.php:167
 msgid "Replace the default WordPress gallery for a bxSlider based one."
 msgstr ""
 "Zameni podrazumevanu WordPress galeriju onom koja se bazira na bxSlider-u."
 
-#: ../includes/settings.class.php:154
+#: src/php/settings.class.php:169
 msgid ""
 "All the galleries included in your posts and pages with the [gallery] "
 "shortcode will turn into cool dynamic galleries using the bxSlider script."
@@ -106,16 +108,16 @@ msgstr ""
 "Sve galerije uključene u vaše postove i stranice sa kratkim kodom [galerije] "
 "pretvoriće se u savremene, dinamičke galerije koje koriste bxSlider script."
 
-#: ../includes/settings.class.php:160
+#: src/php/settings.class.php:177
 msgid "Exclude featured image"
 msgstr "Isključi uobličenu sliku"
 
-#: ../includes/settings.class.php:167
+#: src/php/settings.class.php:185
 msgid ""
 "Exclude the featured image from the galleries that show all the post images."
 msgstr "Isključi uobličenu sliku iz galerija koje prikazuju sve slike posta."
 
-#: ../includes/settings.class.php:169
+#: src/php/settings.class.php:187
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>exclude_featured=0</code> or <code>exclude_featured=1</code>."
@@ -123,17 +125,17 @@ msgstr ""
 "Ovo se može poništiti u samom kratkom kodu unosom parametra "
 "<code>exclude_featured=0</code> ili <code>exclude_featured=1</code>."
 
-#: ../includes/settings.class.php:175
+#: src/php/settings.class.php:195
 msgid "Hide the carousel"
 msgstr "Sakrij karusel"
 
-#: ../includes/settings.class.php:182
+#: src/php/settings.class.php:202
 msgid "You can hide the default thumbnail carousel shown above the gallery."
 msgstr ""
 "Možete sakriti podrazumevani karusel sa sličicama koji se prikazuje iznad "
 "galerije. "
 
-#: ../includes/settings.class.php:184
+#: src/php/settings.class.php:204
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>hide_carousel=0</code> or <code>hide_carousel=1</code>."
@@ -141,15 +143,15 @@ msgstr ""
 "Ovo se može poništiti u samom kratkom kodu unosom parametra "
 "<code>hide_carousel=0</code> ili <code>hide_carousel=1</code>."
 
-#: ../includes/settings.class.php:190 ../includes/settings.class.php:347
+#: src/php/settings.class.php:212 src/php/settings.class.php:387
 msgid "Adaptive height"
 msgstr "Prilagodljiva visina"
 
-#: ../includes/settings.class.php:197 ../includes/settings.class.php:354
+#: src/php/settings.class.php:219 src/php/settings.class.php:394
 msgid "Dynamically adjust slider height based on each slide's height."
 msgstr "Dinamički prilagođava visinu slajdera na osnovu visine svakog slajda."
 
-#: ../includes/settings.class.php:199 ../includes/settings.class.php:356
+#: src/php/settings.class.php:221 src/php/settings.class.php:396
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>adaptive_height=0</code> or <code>adaptive_height=1</code>."
@@ -157,15 +159,15 @@ msgstr ""
 "Ovo se može poništiti u samom kratkom kodu unosom parametra "
 "<code>adaptive_height=0</code> ili <code>adaptive_height=1</code>."
 
-#: ../includes/settings.class.php:205 ../includes/settings.class.php:362
+#: src/php/settings.class.php:229 src/php/settings.class.php:404
 msgid "Auto start"
 msgstr "Automatski početak"
 
-#: ../includes/settings.class.php:212
+#: src/php/settings.class.php:236
 msgid "Gallery slideshow will automatically start."
 msgstr "Prikaz galerije slajdova počeće automatski."
 
-#: ../includes/settings.class.php:214 ../includes/settings.class.php:371
+#: src/php/settings.class.php:238 src/php/settings.class.php:413
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>auto_start=0</code> or <code>auto_start=1</code>."
@@ -173,51 +175,32 @@ msgstr ""
 "Ovo se može poništiti u samom kratkom kodu unosom parametra "
 "<code>auto_start=0</code> ili <code>auto_start=1</code>."
 
-#: ../includes/settings.class.php:220 ../includes/settings.class.php:377
+#: src/php/settings.class.php:246 src/php/settings.class.php:421
 msgid "Duration"
 msgstr "Trajanje"
 
-#: ../includes/settings.class.php:228 ../includes/settings.class.php:385
-msgid ""
-"The time before we automatically transition to the next slide (a number of "
-"milliseconds). This can be overriden in the shortcode itself by passing the "
-"parameter <code>duration=1500</code> or <code>duration=500</code>."
-msgstr ""
-"Vreme koje prođe pre nego što automatski pređemo na sledeći slajd (broj "
-"milisekundi). Može se poništiti u kratkom kodu unosom parametra:"
-"<code>duration=1500</code> ili <code>duration=500</code>."
-
-#: ../includes/settings.class.php:235 ../includes/settings.class.php:392
+#: src/php/settings.class.php:263 src/php/settings.class.php:438
 msgid "Speed"
 msgstr "Brzina"
 
-#: ../includes/settings.class.php:243 ../includes/settings.class.php:400
-msgid ""
-"The speed of the transition (a number of milliseconds). This can be "
-"overriden in the shortcode itself by passing the parameter <code>speed=1500</"
-"code> or <code>speed=500</code>."
-msgstr ""
-"Brzina tranzicije (broj milisekundi). Može se poništiti u kratkom kodu "
-"unosom parametra:<code>speed=1500</code> ili <code>speed=500</code>."
-
-#: ../includes/settings.class.php:250
+#: src/php/settings.class.php:280
 msgid "Carousel thumb width"
 msgstr "Širina sličice u karuselu"
 
-#: ../includes/settings.class.php:258 ../includes/settings.class.php:272
+#: src/php/settings.class.php:288 src/php/settings.class.php:303
 msgid "a number without unit; Will be interpreted as a value in pixels"
 msgstr ""
 "broj bez jedinice vrednosti; tumačiće se kao vrednost izražena u pikselima"
 
-#: ../includes/settings.class.php:264
+#: src/php/settings.class.php:295
 msgid "Carousel thumb margin"
 msgstr "Margina sličice u karuselu"
 
-#: ../includes/settings.class.php:278
+#: src/php/settings.class.php:310
 msgid "Carousel min thumbs"
 msgstr "Minimalan broj sličica u karuselu"
 
-#: ../includes/settings.class.php:286
+#: src/php/settings.class.php:318
 msgid ""
 "The minimum number of thumbnails to be shown. Thumbnails will be sized down "
 "if carousel becomes smaller than the original size"
@@ -225,11 +208,11 @@ msgstr ""
 "Minimalan broj sličica koje će biti prikazane u karuselu. Sličice će biti "
 "smanjene ako karusel postane manji od originalne veličine."
 
-#: ../includes/settings.class.php:292
+#: src/php/settings.class.php:326
 msgid "Carousel max thumbs"
 msgstr "Maksimalan broj sličica u karuselu"
 
-#: ../includes/settings.class.php:300
+#: src/php/settings.class.php:334
 msgid ""
 "The maximum number of thumbnails to be shown. Thumbnails will be sized up if "
 "carousel becomes larger than the original size."
@@ -237,11 +220,11 @@ msgstr ""
 "Maksimalan broj sličica koje će biti prikazane u karuselu. Sličice će biti "
 "uvećane ako karusel postane veći od originalne veličine."
 
-#: ../includes/settings.class.php:306
+#: src/php/settings.class.php:342
 msgid "Skip thumbnails"
 msgstr "Preskoči sličice"
 
-#: ../includes/settings.class.php:314
+#: src/php/settings.class.php:350
 msgid ""
 "The number of thumbnails to move on transition. This value must be >= min "
 "thumbnails, and <= max thumbnails. If zero (default), the number of fully-"
@@ -251,11 +234,11 @@ msgstr ""
 "sličica, and <= max sličica. Ako je broj 0 (podrazumevani), koristiće se "
 "broj potpuno vidljivih sličica."
 
-#: ../includes/settings.class.php:320 ../includes/settings.class.php:407
+#: src/php/settings.class.php:358 src/php/settings.class.php:455
 msgid "Extra options"
 msgstr "Dodatne opcije"
 
-#: ../includes/settings.class.php:328 ../includes/settings.class.php:415
+#: src/php/settings.class.php:366 src/php/settings.class.php:463
 msgid ""
 "You may enter here any raw bxSlider option that may not be exposed as a "
 "plugin setting. Simply put the options as you would within the javascript. "
@@ -265,45 +248,87 @@ msgstr ""
 "kao opcija za plugin. Jednostavno, formulišite opcije kao što biste uradili "
 "da je u pitanju javascript. Evo primera:"
 
-#: ../includes/settings.class.php:340
+#: src/php/settings.class.php:380
 msgid "Slider Shortcodes"
 msgstr "Kratki kodovi slajdera"
 
-#: ../includes/settings.class.php:369
+#: src/php/settings.class.php:411
 msgid "Slides will automatically transition after the page is loaded."
 msgstr "Slajdovi će se automatski smenjivati nakon učitavanja stranice."
 
-#: ../includes/settings.class.php:500
+#: src/php/settings.class.php:560
 msgid " is not a valid value"
 msgstr "vrednost nije validna"
 
-#: ../includes/settings.class.php:522
+#: src/php/settings.class.php:585
 msgid "must be an integer"
 msgstr "mora biti ceo broj"
 
-#: ../includes/settings.class.php:531
-#, php-format
+#: src/php/settings.class.php:596
 msgid "must be greater than %s"
 msgstr "mora biti veći od  %s"
 
-#: ../includes/settings.class.php:540
-#, php-format
+#: src/php/settings.class.php:607
 msgid "must be lower than %s"
 msgstr "mora biti manji od %s"
 
-#: ../includes/settings.class.php:557
+#: src/php/settings.class.php:628
 msgid ""
 "Options related to the shortcodes that output an image gallery: <code>"
 "[gallery]</code> or <code>[bxgallery]</code>."
 msgstr "Opcije u vezi sa kratkim kodovima koji čine galeriju slika:"
 
-#: ../includes/settings.class.php:561
+#: src/php/settings.class.php:635
 msgid ""
 "Options related to the shortcodes that output a generic slider: <code>"
 "[slider]</code> or <code>[bxslider]</code>."
 msgstr ""
 "Opcije u vezi sa kratkim kodovima koji čine generički slajder:<code>[slider]"
 "</code> ili <code>[bxslider]</code>."
+
+#: src/php/settings.class.php:756
+msgid "Testing POT"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "bxSlider integration for WordPress"
+msgstr "bxSlider integrisanje"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://www.marvinlabs.com"
+msgstr "bonjour@marvinlabs.com"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Replaces the native WordPress galleries by a slider based on the jQuery "
+"plugin: bxSlider"
+msgstr ""
+"Zameni podrazumevanu WordPress galeriju onom koja se bazira na bxSlider-u."
+
+#. Author of the plugin/theme
+msgid "MarvinLabs"
+msgstr ""
+
+#~ msgid ""
+#~ "The time before we automatically transition to the next slide (a number "
+#~ "of milliseconds). This can be overriden in the shortcode itself by "
+#~ "passing the parameter <code>duration=1500</code> or <code>duration=500</"
+#~ "code>."
+#~ msgstr ""
+#~ "Vreme koje prođe pre nego što automatski pređemo na sledeći slajd (broj "
+#~ "milisekundi). Može se poništiti u kratkom kodu unosom parametra:"
+#~ "<code>duration=1500</code> ili <code>duration=500</code>."
+
+#~ msgid ""
+#~ "The speed of the transition (a number of milliseconds). This can be "
+#~ "overriden in the shortcode itself by passing the parameter "
+#~ "<code>speed=1500</code> or <code>speed=500</code>."
+#~ msgstr ""
+#~ "Brzina tranzicije (broj milisekundi). Može se poništiti u kratkom kodu "
+#~ "unosom parametra:<code>speed=1500</code> ili <code>speed=500</code>."
 
 #~ msgid "Register"
 #~ msgstr "S'enregistrer"
@@ -428,8 +453,8 @@ msgstr ""
 #~ msgid ""
 #~ "<p>Hello %file_owner%,</p><p>A new file (%file_title%) has been made "
 #~ "available for you in our customer area. You can download it by following "
-#~ "the link: %file_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url"
-#~ "%</p>"
+#~ "the link: %file_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url%"
+#~ "</p>"
 #~ msgstr ""
 #~ "<p>Bonjour %file_owner%,</p><p>Un nouveau fichier (%file_title%) a été "
 #~ "déposé dans votre espace client. Vous pouvez le télécharger en suivant le "
@@ -439,13 +464,13 @@ msgstr ""
 #~ msgstr "Nouveau téléchargement sur %site_name%"
 
 #~ msgid ""
-#~ "<p>Hello,</p><p>A file (%file_title%) has been downloaded by "
-#~ "%download_user%.</p><p>Best regards,</p><p>The customer area plugin<br/>"
-#~ "%site_url%</p>"
+#~ "<p>Hello,</p><p>A file (%file_title%) has been downloaded by %"
+#~ "download_user%.</p><p>Best regards,</p><p>The customer area plugin<br/>%"
+#~ "site_url%</p>"
 #~ msgstr ""
-#~ "<p>Bonjour,</p><p>Un fichier (%file_title%) a été téléchargé par "
-#~ "%download_user%.</p><p>Cordialement,</p><p>Votre plugin zone client<br/>"
-#~ "%site_url%</p>"
+#~ "<p>Bonjour,</p><p>Un fichier (%file_title%) a été téléchargé par %"
+#~ "download_user%.</p><p>Cordialement,</p><p>Votre plugin zone client<br/>%"
+#~ "site_url%</p>"
 
 #~ msgid ""
 #~ "Define here the email that will get sent to a user when a new private "
@@ -715,9 +740,6 @@ msgstr ""
 
 #~ msgid "+33 6 50 21 23 94"
 #~ msgstr "06 50 21 23 94"
-
-#~ msgid "hello@marvinlabs.com"
-#~ msgstr "bonjour@marvinlabs.com"
 
 #~ msgid "+1 us on Google+"
 #~ msgstr "+1 sur Google+"

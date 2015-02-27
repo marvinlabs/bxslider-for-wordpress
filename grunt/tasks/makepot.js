@@ -28,7 +28,6 @@ module.exports = function (grunt, options) {
                     "assets/.*"
                 ],
                 include: options.i18n.sources,
-                i18nToolsPath: options.i18n.toolsPath,
                 mainFile: options.i18n.mainFile,
                 potComments: options.i18n.copyright,
                 potFilename: options.i18n.textDomain + '.pot',
