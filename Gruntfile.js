@@ -32,13 +32,14 @@ module.exports = function (grunt) {
     grunt.registerTask("dist", ["less:dist", "uglify:dist", "autoprefixer:dist", "tx-pull", "wp_readme_to_markdown"]);
     grunt.registerTask("dev", ["less:dev", "uglify:dev", "autoprefixer:dev"]);
 
-    grunt.registerTask("tx-push", ["checktextdomain", "makepot", "exec:txpush_s"]);
+    grunt.registerTask("tx-push", ["makepot", "exec:txpush_s"]);
     grunt.registerTask("tx-pull", ["exec:txpull", "potomo"]);
 
     // The task to prepare a new release
     grunt.registerTask("start-release", "Prepare release task", function (mode) {
         grunt.task.run(
             "checktextdomain",
+            "checkpending",
             "version::" + mode,
             "tx-push",
             "dist");
@@ -47,7 +48,6 @@ module.exports = function (grunt) {
     // The task to make a new release
     grunt.registerTask("finish-release", "Release task", function (mode) {
         grunt.task.run(
-            "checkpending",
             "gitcommit:post_release",
             "compress:build");
     });
