@@ -4,7 +4,7 @@
 **Tags:** wordpress, gallery, slider, bxslider, slideshow,   
 **Requires at least:** 3.5  
 **Tested up to:** 3.9  
-**Stable tag:** 1.7.0  
+**Stable tag:** 1.7.2  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -29,15 +29,16 @@ Why should you use this slider? I'll quote the bxSlider's website:
 * Small file size, fully themed, simple to implement
 * Browser support: Firefox, Chrome, Safari, iOS, Android, IE7+
 
+# Languages #
 
-If you like our plugins, you might want to [check our website](http://www.marvinlabs.com) for more.
+Easy Digital Downloads has been translated into the following languages:
 
-If you want to get updates about our plugins, you can:
+English (and British English)
+German
+Spanish
 
-* [Follow us on Twitter](http://twitter.com/marvinlabs)
-* [Follow us on Google+](https://plus.google.com/u/0/117677945360605555441)
-* [Follow us on Facebook](http://www.facebook.com/studio.marvinlabs)
-
+Would you like to help translate the plugin into more languages? [Join our WP-Translations
+Community](https://www.transifex.com/projects/p/bxslider-integration-for-wordpress/).
 
 ## Features ##
 
@@ -125,12 +126,6 @@ Nothing worth mentionning yet. You might visit the settings page though to adjus
 Nothing special, just upload the files, activate and you can then visit the settings page if you want. Really, it's 
 just like any other simple plugin.
 
-## Screenshots ##
-
-### 1. A standard WordPress gallery turned into a slider with a thumbnail carousel. ###
-![A standard WordPress gallery turned into a slider with a thumbnail carousel.](http://plugins.svn.wordpress.org/bxslider-integration-for-wordpress/assets/screenshot-1.jpg)
-
-
 ## Frequently Asked Questions ##
 
 ### Why isn't bxSlider's XXXXX option available in the plugin's settings page or shortcode? ###
@@ -143,9 +138,10 @@ every gallery/slider).
 
 ## Changelog ##
 
-### 1.7.0 (2015/02/27) ###
+### 1.7.2 (2015/03/02) ###
 
 * New: Better structure for the plugin sources and release system
+* New: Be part of our translator community at wp-translations.org
 
 ### 1.6.0 (2014/05/15) ###
 

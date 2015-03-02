@@ -222,3 +222,4 @@ node_modules
 .idea/
 releases/
 assets/**/*.map
+.transifexrc

@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[bxslider-integration-for-wordpress.bxsgpot]
+file_filter = languages/bxsg-<lang>.po
+source_file = languages/bxsg.pot
+source_lang = en_US
+type = PO

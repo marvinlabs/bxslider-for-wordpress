@@ -1,14 +1,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bxSlider for WordPress\n"
-"POT-Creation-Date: 2014-08-08 22:12+0100\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/bxslider-"
+"integration\n"
+"POT-Creation-Date: 2015-02-27 17:56:04+00:00\n"
 "PO-Revision-Date: 2014-08-08 22:20+0100\n"
 "Last-Translator: \n"
 "Language-Team: MarvinLabs\n"
-"Language: FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: FR\n"
 "X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
@@ -17,37 +19,37 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../includes/settings.class.php:59 ../includes/settings.class.php:60
-#: ../includes/settings.view.php:22
+#: src/php/settings.class.php:66 src/php/settings.class.php:67
+#: src/php/settings.view.php:22
 msgid "bxSlider integration"
 msgstr "Intégration de bxSlider"
 
-#: ../includes/settings.class.php:82
+#: src/php/settings.class.php:91
 msgid "General Settings"
 msgstr "Réglages généraux"
 
-#: ../includes/settings.class.php:89
+#: src/php/settings.class.php:98
 msgid "Include CSS"
 msgstr "Inclure le CSS"
 
-#: ../includes/settings.class.php:96
+#: src/php/settings.class.php:105
 msgid "Include the default stylesheet."
 msgstr "Inclure la feuille de style par défaut"
 
-#: ../includes/settings.class.php:98
+#: src/php/settings.class.php:107
 msgid "If not, you should style the slider yourself in your theme."
 msgstr ""
 "Si non, vous devrez mettre en forme le plugin par vous-même dans votre thème."
 
-#: ../includes/settings.class.php:104
+#: src/php/settings.class.php:114
 msgid "Include JS"
 msgstr "Inclure le JavaScript"
 
-#: ../includes/settings.class.php:111
+#: src/php/settings.class.php:121
 msgid "Include the bxSlider script."
 msgstr "Inclure le script de bxSlider."
 
-#: ../includes/settings.class.php:113
+#: src/php/settings.class.php:123
 msgid ""
 "Uncheck this option only if your theme already provides a compatible "
 "bxSlider javascript. Else, leave it on."
@@ -55,28 +57,28 @@ msgstr ""
 "Désactivez cette option seulement si votre thème inclue déjà le javascript "
 "de bxSlider. Sinon, laissez cette case cochée."
 
-#: ../includes/settings.class.php:119
+#: src/php/settings.class.php:131
 msgid "Slide transitions"
 msgstr "Transitions des diapos"
 
-#: ../includes/settings.class.php:126
+#: src/php/settings.class.php:138
 msgid "Fade"
 msgstr "Fondu"
 
-#: ../includes/settings.class.php:127
+#: src/php/settings.class.php:139
 msgid "Slide horizontally"
 msgstr "Glissé horizontal"
 
-#: ../includes/settings.class.php:128
+#: src/php/settings.class.php:140
 msgid "Slide vertically"
 msgstr "Glissé vertical"
 
-#: ../includes/settings.class.php:130
+#: src/php/settings.class.php:143
 msgid ""
 "The default type of transition to use to go from one slide to another one. "
 msgstr "Le type de transition par défaut entre les diapos."
 
-#: ../includes/settings.class.php:131
+#: src/php/settings.class.php:144
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>transition=fade</code>, <code>transition=horizontal</code> or "
@@ -86,20 +88,20 @@ msgstr ""
 "<code>transition=fade</code>, <code>transition=horizontal</code> ou "
 "<code>transition=vertical</code>."
 
-#: ../includes/settings.class.php:138
+#: src/php/settings.class.php:153
 msgid "Gallery Shortcodes"
 msgstr "Shortcodes de gallerie"
 
-#: ../includes/settings.class.php:145
+#: src/php/settings.class.php:160
 msgid "Default WordPress galleries"
 msgstr "Galleries intégrées WordPress"
 
-#: ../includes/settings.class.php:152
+#: src/php/settings.class.php:167
 msgid "Replace the default WordPress gallery for a bxSlider based one."
 msgstr ""
 "Remplacer les galleries intégrées WordPress par des galleries bxSlider."
 
-#: ../includes/settings.class.php:154
+#: src/php/settings.class.php:169
 msgid ""
 "All the galleries included in your posts and pages with the [gallery] "
 "shortcode will turn into cool dynamic galleries using the bxSlider script."
@@ -107,18 +109,18 @@ msgstr ""
 "Toutes les galleries inclues dans vos articles et vos pages avec le "
 "shortcode [gallery] seront transformées en galleries dynamiques bxSlider."
 
-#: ../includes/settings.class.php:160
+#: src/php/settings.class.php:177
 msgid "Exclude featured image"
 msgstr "Exclure l'image à la une"
 
-#: ../includes/settings.class.php:167
+#: src/php/settings.class.php:185
 msgid ""
 "Exclude the featured image from the galleries that show all the post images."
 msgstr ""
 "Exclure l'image à la une des galleries qui montrent toutes les images de "
 "l'article"
 
-#: ../includes/settings.class.php:169
+#: src/php/settings.class.php:187
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>exclude_featured=0</code> or <code>exclude_featured=1</code>."
@@ -126,17 +128,17 @@ msgstr ""
 "Ceci peut être redéfini dans le shortcode en passant le paramètre "
 "<code>exclude_featured=0</code> ou <code>exclude_featured=1</code>."
 
-#: ../includes/settings.class.php:175
+#: src/php/settings.class.php:195
 msgid "Hide the carousel"
 msgstr "Masquer le carrousel"
 
-#: ../includes/settings.class.php:182
+#: src/php/settings.class.php:202
 msgid "You can hide the default thumbnail carousel shown above the gallery."
 msgstr ""
 "Vous pouvez masquer le carrousel de miniatures affiché au dessus des "
 "galleries."
 
-#: ../includes/settings.class.php:184
+#: src/php/settings.class.php:204
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>hide_carousel=0</code> or <code>hide_carousel=1</code>."
@@ -144,15 +146,15 @@ msgstr ""
 "Ceci peut être redéfini dans le shortcode en passant le paramètre "
 "<code>hide_carousel=0</code> ou <code>hide_carousel=1</code>."
 
-#: ../includes/settings.class.php:190 ../includes/settings.class.php:347
+#: src/php/settings.class.php:212 src/php/settings.class.php:387
 msgid "Adaptive height"
 msgstr "Hauteur adaptative"
 
-#: ../includes/settings.class.php:197 ../includes/settings.class.php:354
+#: src/php/settings.class.php:219 src/php/settings.class.php:394
 msgid "Dynamically adjust slider height based on each slide's height."
 msgstr "Ajuster dynamiquement la hauteur du slider selon la diapo en cours."
 
-#: ../includes/settings.class.php:199 ../includes/settings.class.php:356
+#: src/php/settings.class.php:221 src/php/settings.class.php:396
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>adaptive_height=0</code> or <code>adaptive_height=1</code>."
@@ -160,15 +162,15 @@ msgstr ""
 "Ceci peut être redéfini dans le shortcode en passant le paramètre "
 "<code>adaptive_height=0</code> ou <code>adaptive_height=1</code>."
 
-#: ../includes/settings.class.php:205 ../includes/settings.class.php:362
+#: src/php/settings.class.php:229 src/php/settings.class.php:404
 msgid "Auto start"
 msgstr "Démarrage automatique"
 
-#: ../includes/settings.class.php:212
+#: src/php/settings.class.php:236
 msgid "Gallery slideshow will automatically start."
 msgstr "Le diaporama de la gallerie démarre automatiquement."
 
-#: ../includes/settings.class.php:214 ../includes/settings.class.php:371
+#: src/php/settings.class.php:238 src/php/settings.class.php:413
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>auto_start=0</code> or <code>auto_start=1</code>."
@@ -176,51 +178,31 @@ msgstr ""
 "Ceci peut être redéfini dans le shortcode en passant le paramètre "
 "<code>auto_start=0</code> ou <code>auto_start=1</code>."
 
-#: ../includes/settings.class.php:220 ../includes/settings.class.php:377
+#: src/php/settings.class.php:246 src/php/settings.class.php:421
 msgid "Duration"
 msgstr "Durée"
 
-#: ../includes/settings.class.php:228 ../includes/settings.class.php:385
-msgid ""
-"The time before we automatically transition to the next slide (a number of "
-"milliseconds). This can be overriden in the shortcode itself by passing the "
-"parameter <code>duration=1500</code> or <code>duration=500</code>."
-msgstr ""
-"Le temps avant d'automatiquement transitioner vers le slide suivant (en "
-"millisecondes). Ceci peut être redéfini dans le shortcode en passant le "
-"paramètre <code>duration=1500</code> ou <code>duration=500</code>."
-
-#: ../includes/settings.class.php:235 ../includes/settings.class.php:392
+#: src/php/settings.class.php:263 src/php/settings.class.php:438
 msgid "Speed"
 msgstr "Vitesse"
 
-#: ../includes/settings.class.php:243 ../includes/settings.class.php:400
-msgid ""
-"The speed of the transition (a number of milliseconds). This can be "
-"overriden in the shortcode itself by passing the parameter <code>speed=1500</"
-"code> or <code>speed=500</code>."
-msgstr ""
-"La vitesse de transition (en millisecondes). Ceci peut être redéfini dans le "
-"shortcode en passant le paramètre <code>speed=1500</code> ou "
-"<code>speed=500</code>."
-
-#: ../includes/settings.class.php:250
+#: src/php/settings.class.php:280
 msgid "Carousel thumb width"
 msgstr "Largeur de miniature dans le carrousel"
 
-#: ../includes/settings.class.php:258 ../includes/settings.class.php:272
+#: src/php/settings.class.php:288 src/php/settings.class.php:303
 msgid "a number without unit; Will be interpreted as a value in pixels"
 msgstr "Un nombre sans unité ; Sera interprété comme une valeur en pixels"
 
-#: ../includes/settings.class.php:264
+#: src/php/settings.class.php:295
 msgid "Carousel thumb margin"
 msgstr "Marge entre les miniatures dans le carrousel"
 
-#: ../includes/settings.class.php:278
+#: src/php/settings.class.php:310
 msgid "Carousel min thumbs"
 msgstr "Nombre min. de miniatures"
 
-#: ../includes/settings.class.php:286
+#: src/php/settings.class.php:318
 msgid ""
 "The minimum number of thumbnails to be shown. Thumbnails will be sized down "
 "if carousel becomes smaller than the original size"
@@ -228,11 +210,11 @@ msgstr ""
 "Le nombre minimal de miniatures à afficher dans le carrousel. Les miniatures "
 "seront réduites si le carrouseil devient plus petit que sa taille originale"
 
-#: ../includes/settings.class.php:292
+#: src/php/settings.class.php:326
 msgid "Carousel max thumbs"
 msgstr "Nombre max. de miniatures"
 
-#: ../includes/settings.class.php:300
+#: src/php/settings.class.php:334
 msgid ""
 "The maximum number of thumbnails to be shown. Thumbnails will be sized up if "
 "carousel becomes larger than the original size."
@@ -240,11 +222,11 @@ msgstr ""
 "Le nombre maximal de miniatures à afficher dans le carrousel. Les miniatures "
 "seront agrandies si le carrouseil devient plus grand que sa taille originale"
 
-#: ../includes/settings.class.php:306
+#: src/php/settings.class.php:342
 msgid "Skip thumbnails"
 msgstr "Saut de miniatures"
 
-#: ../includes/settings.class.php:314
+#: src/php/settings.class.php:350
 msgid ""
 "The number of thumbnails to move on transition. This value must be >= min "
 "thumbnails, and <= max thumbnails. If zero (default), the number of fully-"
@@ -254,11 +236,11 @@ msgstr ""
 "être >= au nombre minimal de miniatures et <= au nombre maximal. Si c'est 0 "
 "(par défaut), le nombre de miniatures visibles entièrement sera utilisé."
 
-#: ../includes/settings.class.php:320 ../includes/settings.class.php:407
+#: src/php/settings.class.php:358 src/php/settings.class.php:455
 msgid "Extra options"
 msgstr "Options supplémentaires"
 
-#: ../includes/settings.class.php:328 ../includes/settings.class.php:415
+#: src/php/settings.class.php:366 src/php/settings.class.php:463
 msgid ""
 "You may enter here any raw bxSlider option that may not be exposed as a "
 "plugin setting. Simply put the options as you would within the javascript. "
@@ -268,33 +250,31 @@ msgstr ""
 "pas exposée comme réglage du plugin. Ecrivez simplement l'option comme vous "
 "le feriez avec le javascript. Voici un exemple :"
 
-#: ../includes/settings.class.php:340
+#: src/php/settings.class.php:380
 msgid "Slider Shortcodes"
 msgstr "Shortcodes Slider"
 
-#: ../includes/settings.class.php:369
+#: src/php/settings.class.php:411
 msgid "Slides will automatically transition after the page is loaded."
 msgstr "Les diapos défileront automatiquement après le chargement de la page."
 
-#: ../includes/settings.class.php:500
+#: src/php/settings.class.php:560
 msgid " is not a valid value"
 msgstr "n'est pas une valeur valide"
 
-#: ../includes/settings.class.php:522
+#: src/php/settings.class.php:585
 msgid "must be an integer"
 msgstr "doit être un entier"
 
-#: ../includes/settings.class.php:531
-#, php-format
+#: src/php/settings.class.php:596
 msgid "must be greater than %s"
 msgstr "doit être plus grand que %s"
 
-#: ../includes/settings.class.php:540
-#, php-format
+#: src/php/settings.class.php:607
 msgid "must be lower than %s"
 msgstr "doit être plus petit que %s"
 
-#: ../includes/settings.class.php:557
+#: src/php/settings.class.php:628
 msgid ""
 "Options related to the shortcodes that output an image gallery: <code>"
 "[gallery]</code> or <code>[bxgallery]</code>."
@@ -302,13 +282,58 @@ msgstr ""
 "Options liées aux shortcodes qui produisent une gallerie d'images : <code>"
 "[gallery]</code> or=u <code>[bxgallery]</code>."
 
-#: ../includes/settings.class.php:561
+#: src/php/settings.class.php:635
 msgid ""
 "Options related to the shortcodes that output a generic slider: <code>"
 "[slider]</code> or <code>[bxslider]</code>."
 msgstr ""
 "Options liées aux shortcodes qui produisent un slider générique : <code>"
 "[slider]</code> ou <code>[bxslider]</code>."
+
+#: src/php/settings.class.php:756
+msgid "Testing POT"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "bxSlider integration for WordPress"
+msgstr "Intégration de bxSlider"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://www.marvinlabs.com"
+msgstr "bonjour@marvinlabs.com"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Replaces the native WordPress galleries by a slider based on the jQuery "
+"plugin: bxSlider"
+msgstr ""
+"Remplacer les galleries intégrées WordPress par des galleries bxSlider."
+
+#. Author of the plugin/theme
+msgid "MarvinLabs"
+msgstr ""
+
+#~ msgid ""
+#~ "The time before we automatically transition to the next slide (a number "
+#~ "of milliseconds). This can be overriden in the shortcode itself by "
+#~ "passing the parameter <code>duration=1500</code> or <code>duration=500</"
+#~ "code>."
+#~ msgstr ""
+#~ "Le temps avant d'automatiquement transitioner vers le slide suivant (en "
+#~ "millisecondes). Ceci peut être redéfini dans le shortcode en passant le "
+#~ "paramètre <code>duration=1500</code> ou <code>duration=500</code>."
+
+#~ msgid ""
+#~ "The speed of the transition (a number of milliseconds). This can be "
+#~ "overriden in the shortcode itself by passing the parameter "
+#~ "<code>speed=1500</code> or <code>speed=500</code>."
+#~ msgstr ""
+#~ "La vitesse de transition (en millisecondes). Ceci peut être redéfini dans "
+#~ "le shortcode en passant le paramètre <code>speed=1500</code> ou "
+#~ "<code>speed=500</code>."
 
 #~ msgid "Register"
 #~ msgstr "S'enregistrer"
@@ -433,8 +458,8 @@ msgstr ""
 #~ msgid ""
 #~ "<p>Hello %file_owner%,</p><p>A new file (%file_title%) has been made "
 #~ "available for you in our customer area. You can download it by following "
-#~ "the link: %file_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url"
-#~ "%</p>"
+#~ "the link: %file_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url%"
+#~ "</p>"
 #~ msgstr ""
 #~ "<p>Bonjour %file_owner%,</p><p>Un nouveau fichier (%file_title%) a été "
 #~ "déposé dans votre espace client. Vous pouvez le télécharger en suivant le "
@@ -444,13 +469,13 @@ msgstr ""
 #~ msgstr "Nouveau téléchargement sur %site_name%"
 
 #~ msgid ""
-#~ "<p>Hello,</p><p>A file (%file_title%) has been downloaded by "
-#~ "%download_user%.</p><p>Best regards,</p><p>The customer area plugin<br/>"
-#~ "%site_url%</p>"
+#~ "<p>Hello,</p><p>A file (%file_title%) has been downloaded by %"
+#~ "download_user%.</p><p>Best regards,</p><p>The customer area plugin<br/>%"
+#~ "site_url%</p>"
 #~ msgstr ""
-#~ "<p>Bonjour,</p><p>Un fichier (%file_title%) a été téléchargé par "
-#~ "%download_user%.</p><p>Cordialement,</p><p>Votre plugin zone client<br/>"
-#~ "%site_url%</p>"
+#~ "<p>Bonjour,</p><p>Un fichier (%file_title%) a été téléchargé par %"
+#~ "download_user%.</p><p>Cordialement,</p><p>Votre plugin zone client<br/>%"
+#~ "site_url%</p>"
 
 #~ msgid ""
 #~ "Define here the email that will get sent to a user when a new private "
@@ -720,9 +745,6 @@ msgstr ""
 
 #~ msgid "+33 6 50 21 23 94"
 #~ msgstr "06 50 21 23 94"
-
-#~ msgid "hello@marvinlabs.com"
-#~ msgstr "bonjour@marvinlabs.com"
 
 #~ msgid "+1 us on Google+"
 #~ msgstr "+1 sur Google+"

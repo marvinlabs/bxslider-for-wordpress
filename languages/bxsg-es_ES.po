@@ -1,929 +1,281 @@
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: bxSlider for WordPress\n"
-"POT-Creation-Date: 2014-08-08 22:11+0100\n"
-"PO-Revision-Date: 2014-08-19 11:02+0100\n"
-"Last-Translator: \n"
-"Language-Team: MarvinLabs\n"
-"Language: FR\n"
+"Project-Id-Version: bxSlider Integration for WordPress\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/bxslider-integration\n"
+"POT-Creation-Date: 2015-02-27 17:56:04+00:00\n"
+"PO-Revision-Date: 2015-03-02 08:25+0000\n"
+"Last-Translator: Vincent Mimoun-Prat <vpratfr@yahoo.fr>\n"
+"Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/bxslider-integration-for-wordpress/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
-"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
-"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
-"X-Poedit-Basepath: .\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 0.5.0\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes\n"
 
-#: ../includes/settings.class.php:59 ../includes/settings.class.php:60
-#: ../includes/settings.view.php:22
+#: src/php/settings.class.php:66 src/php/settings.class.php:67
+#: src/php/settings.view.php:22
 msgid "bxSlider integration"
 msgstr "Integración bxSlider"
 
-#: ../includes/settings.class.php:82
+#: src/php/settings.class.php:91
 msgid "General Settings"
 msgstr "Configuración general"
 
-#: ../includes/settings.class.php:89
+#: src/php/settings.class.php:98
 msgid "Include CSS"
 msgstr "Incluir CSS"
 
-#: ../includes/settings.class.php:96
+#: src/php/settings.class.php:105
 msgid "Include the default stylesheet."
 msgstr "Incluir la hoja de estilo por defecto."
 
-#: ../includes/settings.class.php:98
+#: src/php/settings.class.php:107
 msgid "If not, you should style the slider yourself in your theme."
-msgstr ""
-"Si no, usted debe aplicar estilo al control deslizante usted mismo en su "
-"tema."
+msgstr "Si no, usted debe aplicar estilo al control deslizante usted mismo en su tema."
 
-#: ../includes/settings.class.php:104
+#: src/php/settings.class.php:114
 msgid "Include JS"
 msgstr "Incluir JS"
 
-#: ../includes/settings.class.php:111
+#: src/php/settings.class.php:121
 msgid "Include the bxSlider script."
 msgstr "Incluir el script de bxSlider."
 
-#: ../includes/settings.class.php:113
+#: src/php/settings.class.php:123
 msgid ""
 "Uncheck this option only if your theme already provides a compatible "
 "bxSlider javascript. Else, leave it on."
-msgstr ""
-"Des seleccione esta opción solamente si su tema ya provee un javascript "
-"compatible con bxSlider. Si no, déjela seleccionada."
+msgstr "Des seleccione esta opción solamente si su tema ya provee un javascript compatible con bxSlider. Si no, déjela seleccionada."
 
-#: ../includes/settings.class.php:119
+#: src/php/settings.class.php:131
 msgid "Slide transitions"
 msgstr "Transiciones de diapositivas"
 
-#: ../includes/settings.class.php:126
+#: src/php/settings.class.php:138
 msgid "Fade"
 msgstr "Disolver"
 
-#: ../includes/settings.class.php:127
+#: src/php/settings.class.php:139
 msgid "Slide horizontally"
 msgstr "Deslice horizontalmente"
 
-#: ../includes/settings.class.php:128
+#: src/php/settings.class.php:140
 msgid "Slide vertically"
 msgstr "Deslice verticalmente"
 
-#: ../includes/settings.class.php:130
+#: src/php/settings.class.php:143
 msgid ""
 "The default type of transition to use to go from one slide to another one. "
-msgstr ""
-"El tipo predeterminado de transición a utilizar para pasar de una "
-"diapositiva a otra."
+msgstr "El tipo predeterminado de transición a utilizar para pasar de una diapositiva a otra."
 
-#: ../includes/settings.class.php:131
+#: src/php/settings.class.php:144
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>transition=fade</code>, <code>transition=horizontal</code> or "
 "<code>transition=vertical</code>."
-msgstr ""
-"Esto puede ser sobre escrito en el propio código corto pasando el parámetro "
-"<code> transición=fade</code>, <code>=transición horizontal </code> o "
-"<code>=transición vertical </code>."
+msgstr "Esto puede ser sobre escrito en el propio código corto pasando el parámetro <code> transición=fade</code>, <code>=transición horizontal </code> o <code>=transición vertical </code>."
 
-#: ../includes/settings.class.php:138
+#: src/php/settings.class.php:153
 msgid "Gallery Shortcodes"
 msgstr "Galería de Shortcodes"
 
-#: ../includes/settings.class.php:145
+#: src/php/settings.class.php:160
 msgid "Default WordPress galleries"
 msgstr "Galerías de WordPress por defecto"
 
-#: ../includes/settings.class.php:152
+#: src/php/settings.class.php:167
 msgid "Replace the default WordPress gallery for a bxSlider based one."
-msgstr ""
-"Sustituir el nombre predeterminado Galería de WordPress para una basada en "
-"bxSlider."
+msgstr "Sustituir el nombre predeterminado Galería de WordPress para una basada en bxSlider."
 
-#: ../includes/settings.class.php:154
+#: src/php/settings.class.php:169
 msgid ""
 "All the galleries included in your posts and pages with the [gallery] "
 "shortcode will turn into cool dynamic galleries using the bxSlider script."
-msgstr ""
-"Todas las galerías incluidas en sus mensajes y páginas con el código corto "
-"[galería] se convertirán en galerías dinámicas utilizando la secuencia de "
-"comandos bxSlider."
+msgstr "Todas las galerías incluidas en sus mensajes y páginas con el código corto [galería] se convertirán en galerías dinámicas utilizando la secuencia de comandos bxSlider."
 
-#: ../includes/settings.class.php:160
+#: src/php/settings.class.php:177
 msgid "Exclude featured image"
 msgstr "Excluir Foto principal"
 
-#: ../includes/settings.class.php:167
+#: src/php/settings.class.php:185
 msgid ""
 "Exclude the featured image from the galleries that show all the post images."
-msgstr ""
-"Excluir la imagen principal desde las galerías que muestran todas las "
-"imágenes de publicaciones."
+msgstr "Excluir la imagen principal desde las galerías que muestran todas las imágenes de publicaciones."
 
-#: ../includes/settings.class.php:169
+#: src/php/settings.class.php:187
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>exclude_featured=0</code> or <code>exclude_featured=1</code>."
-msgstr ""
-"Esto puede ser sobre escrito en el propio código corto pasando el parámetro "
-"<code>exclude_featured=0</code> o <code>exclude_featured=1 </code>."
+msgstr "Esto puede ser sobre escrito en el propio código corto pasando el parámetro <code>exclude_featured=0</code> o <code>exclude_featured=1 </code>."
 
-#: ../includes/settings.class.php:175
+#: src/php/settings.class.php:195
 msgid "Hide the carousel"
 msgstr "Ocultar el carrusel"
 
-#: ../includes/settings.class.php:182
+#: src/php/settings.class.php:202
 msgid "You can hide the default thumbnail carousel shown above the gallery."
-msgstr ""
-"Puede ocultar el carrusel de miniaturas predeterminado mostrado por encima "
-"de la galería."
+msgstr "Puede ocultar el carrusel de miniaturas predeterminado mostrado por encima de la galería."
 
-#: ../includes/settings.class.php:184
+#: src/php/settings.class.php:204
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>hide_carousel=0</code> or <code>hide_carousel=1</code>."
-msgstr ""
-"Esto puede ser sobre escrito en el propio código corto pasando el parámetro "
-"<code>hide_carousel=0 </code> o <code>hide_carousel=1 </code>."
+msgstr "Esto puede ser sobre escrito en el propio código corto pasando el parámetro <code>hide_carousel=0 </code> o <code>hide_carousel=1 </code>."
 
-#: ../includes/settings.class.php:190 ../includes/settings.class.php:347
+#: src/php/settings.class.php:212 src/php/settings.class.php:387
 msgid "Adaptive height"
 msgstr "Altura adaptable"
 
-#: ../includes/settings.class.php:197 ../includes/settings.class.php:354
+#: src/php/settings.class.php:219 src/php/settings.class.php:394
 msgid "Dynamically adjust slider height based on each slide's height."
-msgstr ""
-"Dinámicamente ajustar la altura deslizante basado en la altura de cada "
-"diapositiva."
+msgstr "Dinámicamente ajustar la altura deslizante basado en la altura de cada diapositiva."
 
-#: ../includes/settings.class.php:199 ../includes/settings.class.php:356
+#: src/php/settings.class.php:221 src/php/settings.class.php:396
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>adaptive_height=0</code> or <code>adaptive_height=1</code>."
-msgstr ""
-"Esto puede ser sobreescrito en el código corto en sí pasando el parámetro "
-"<code>adaptive_height=0</code> o <code>adaptive_height=1</code>."
+msgstr "Esto puede ser sobreescrito en el código corto en sí pasando el parámetro <code>adaptive_height=0</code> o <code>adaptive_height=1</code>."
 
-#: ../includes/settings.class.php:205 ../includes/settings.class.php:362
+#: src/php/settings.class.php:229 src/php/settings.class.php:404
 msgid "Auto start"
 msgstr "Auto inicio"
 
-#: ../includes/settings.class.php:212
+#: src/php/settings.class.php:236
 msgid "Gallery slideshow will automatically start."
-msgstr ""
-"Presentación de diapositivas de la Galería se iniciará automáticamente."
+msgstr "Presentación de diapositivas de la Galería se iniciará automáticamente."
 
-#: ../includes/settings.class.php:214 ../includes/settings.class.php:371
+#: src/php/settings.class.php:238 src/php/settings.class.php:413
 msgid ""
 "This can be overriden in the shortcode itself by passing the parameter "
 "<code>auto_start=0</code> or <code>auto_start=1</code>."
-msgstr ""
-"Esto puede ser sobreescrito en el propio código corto pasando el parámetro "
-"<code>auto_start=0 </code> o <code> auto_start=1</code>."
+msgstr "Esto puede ser sobreescrito en el propio código corto pasando el parámetro <code>auto_start=0 </code> o <code> auto_start=1</code>."
 
-#: ../includes/settings.class.php:220 ../includes/settings.class.php:377
+#: src/php/settings.class.php:246 src/php/settings.class.php:421
 msgid "Duration"
 msgstr "Duración"
 
-#: ../includes/settings.class.php:228 ../includes/settings.class.php:385
-msgid ""
-"The time before we automatically transition to the next slide (a number of "
-"milliseconds). This can be overriden in the shortcode itself by passing the "
-"parameter <code>duration=1500</code> or <code>duration=500</code>."
-msgstr ""
-"El tiempo antes de hacer la transición automática a la próxima diapositiva "
-"(un número en milisegundos). Esto puede ser sobrescrito en el código corto "
-"en sí pasando el parámetro<code>duration=1500</code> o <code>duration=500</"
-"code>."
-
-#: ../includes/settings.class.php:235 ../includes/settings.class.php:392
+#: src/php/settings.class.php:263 src/php/settings.class.php:438
 msgid "Speed"
 msgstr "Velocidad"
 
-#: ../includes/settings.class.php:243 ../includes/settings.class.php:400
-msgid ""
-"The speed of the transition (a number of milliseconds). This can be "
-"overriden in the shortcode itself by passing the parameter <code>speed=1500</"
-"code> or <code>speed=500</code>."
-msgstr ""
-"La velocidad de la transición (un número en milisegundos). Esto puede ser "
-"sobrescrito en el código corto en sí pasando el parámetro<code>speed=1500</"
-"code> o <code>speed=500</code>."
-
-#: ../includes/settings.class.php:250
+#: src/php/settings.class.php:280
 msgid "Carousel thumb width"
 msgstr "Ancho de miniaturas del Carrusel"
 
-#: ../includes/settings.class.php:258 ../includes/settings.class.php:272
+#: src/php/settings.class.php:288 src/php/settings.class.php:303
 msgid "a number without unit; Will be interpreted as a value in pixels"
 msgstr "Un número sin unidades se interpretará como un valor en píxeles"
 
-#: ../includes/settings.class.php:264
+#: src/php/settings.class.php:295
 msgid "Carousel thumb margin"
 msgstr "Margen miniaturas Carrusel"
 
-#: ../includes/settings.class.php:278
+#: src/php/settings.class.php:310
 msgid "Carousel min thumbs"
 msgstr "Min miniaturas en Carrusel"
 
-#: ../includes/settings.class.php:286
+#: src/php/settings.class.php:318
 msgid ""
 "The minimum number of thumbnails to be shown. Thumbnails will be sized down "
 "if carousel becomes smaller than the original size"
-msgstr ""
-"El número mínimo de miniaturas para mostrar. Las miniaturas se "
-"redimensionarán si el carrusel se hace más pequeño que el tamaño original"
+msgstr "El número mínimo de miniaturas para mostrar. Las miniaturas se redimensionarán si el carrusel se hace más pequeño que el tamaño original"
 
-#: ../includes/settings.class.php:292
+#: src/php/settings.class.php:326
 msgid "Carousel max thumbs"
 msgstr "del carrusel max pulgares"
 
-#: ../includes/settings.class.php:300
+#: src/php/settings.class.php:334
 msgid ""
-"The maximum number of thumbnails to be shown. Thumbnails will be sized up if "
-"carousel becomes larger than the original size."
-msgstr ""
-"El número máximo de imágenes en miniatura que se muestra. Miniaturas se "
-"dimensionarán para arriba si carrusel se hace más grande que el tamaño "
-"original."
+"The maximum number of thumbnails to be shown. Thumbnails will be sized up if"
+" carousel becomes larger than the original size."
+msgstr "El número máximo de imágenes en miniatura que se muestra. Miniaturas se dimensionarán para arriba si carrusel se hace más grande que el tamaño original."
 
-#: ../includes/settings.class.php:306
+#: src/php/settings.class.php:342
 msgid "Skip thumbnails"
 msgstr "Saltar miniaturas"
 
-#: ../includes/settings.class.php:314
+#: src/php/settings.class.php:350
 msgid ""
 "The number of thumbnails to move on transition. This value must be >= min "
 "thumbnails, and <= max thumbnails. If zero (default), the number of fully-"
 "visible thumbnails will be used."
-msgstr ""
-"El número de miniaturas para moverse en la transición. Este valor debe ser "
-">= min miniaturas y <= max miniaturas. Si es cero (por defecto), se "
-"utilizará el número de miniaturas totalmente visibles."
+msgstr "El número de miniaturas para moverse en la transición. Este valor debe ser >= min miniaturas y <= max miniaturas. Si es cero (por defecto), se utilizará el número de miniaturas totalmente visibles."
 
-#: ../includes/settings.class.php:320 ../includes/settings.class.php:407
+#: src/php/settings.class.php:358 src/php/settings.class.php:455
 msgid "Extra options"
 msgstr "Opciones extra"
 
-#: ../includes/settings.class.php:328 ../includes/settings.class.php:415
+#: src/php/settings.class.php:366 src/php/settings.class.php:463
 msgid ""
 "You may enter here any raw bxSlider option that may not be exposed as a "
 "plugin setting. Simply put the options as you would within the javascript. "
 "Here is an example:"
-msgstr ""
-"Usted puede entrar aquí cualquier opción de bxSlider que no puede estar "
-"expuesta como un ajuste del plugin. Simplemente ponga las opciones como lo "
-"haría en javascript. Aquí va un ejemplo:"
+msgstr "Usted puede entrar aquí cualquier opción de bxSlider que no puede estar expuesta como un ajuste del plugin. Simplemente ponga las opciones como lo haría en javascript. Aquí va un ejemplo:"
 
-#: ../includes/settings.class.php:340
+#: src/php/settings.class.php:380
 msgid "Slider Shortcodes"
 msgstr "Shortcodes del Deslizador"
 
-#: ../includes/settings.class.php:369
+#: src/php/settings.class.php:411
 msgid "Slides will automatically transition after the page is loaded."
-msgstr ""
-"Las diapositivas pasarán automáticamente después de que se cargue la página."
+msgstr "Las diapositivas pasarán automáticamente después de que se cargue la página."
 
-#: ../includes/settings.class.php:500
+#: src/php/settings.class.php:560
 msgid " is not a valid value"
 msgstr "No es un valor válido"
 
-#: ../includes/settings.class.php:522
+#: src/php/settings.class.php:585
 msgid "must be an integer"
 msgstr "debe ser un número entero"
 
-#: ../includes/settings.class.php:531
-#, php-format
+#: src/php/settings.class.php:596
 msgid "must be greater than %s"
 msgstr "debe ser mayor que %s"
 
-#: ../includes/settings.class.php:540
-#, php-format
+#: src/php/settings.class.php:607
 msgid "must be lower than %s"
 msgstr "debe ser inferior a %s"
 
-#: ../includes/settings.class.php:557
+#: src/php/settings.class.php:628
 msgid ""
-"Options related to the shortcodes that output an image gallery: <code>"
-"[gallery]</code> or <code>[bxgallery]</code>."
-msgstr ""
-"Opciones relacionadas con los códigos cortos de la salida de una galería de "
-"imágenes: <code> [galería] </code> o <code> [bxgallery] </code>."
+"Options related to the shortcodes that output an image gallery: "
+"<code>[gallery]</code> or <code>[bxgallery]</code>."
+msgstr "Opciones relacionadas con los códigos cortos de la salida de una galería de imágenes: <code> [galería] </code> o <code> [bxgallery] </code>."
 
-#: ../includes/settings.class.php:561
+#: src/php/settings.class.php:635
 msgid ""
-"Options related to the shortcodes that output a generic slider: <code>"
-"[slider]</code> or <code>[bxslider]</code>."
+"Options related to the shortcodes that output a generic slider: "
+"<code>[slider]</code> or <code>[bxslider]</code>."
+msgstr "Opciones relacionadas con los códigos cortos de la salida de un control deslizante  <code> [deslizador] </code> o <code> [bxslider] </code>."
+
+#: src/php/settings.class.php:756
+msgid "Testing POT"
 msgstr ""
-"Opciones relacionadas con los códigos cortos de la salida de un control "
-"deslizante  <code> [deslizador] </code> o <code> [bxslider] </code>."
 
-#~ msgid "Register"
-#~ msgstr "S'enregistrer"
-
-#~ msgid "Reset your password"
-#~ msgstr "Réinitialiser votre mot de passe"
-
-#~ msgid "Login"
-#~ msgstr "Connexion"
-
-#, fuzzy
-#~ msgid ""
-#~ "You must login to access your own customer area. If you do not have an "
-#~ "account yet, please register or contact us so that we can create it."
-#~ msgstr ""
-#~ "Si vous n'avez pas encore de compte utilisateur, merci de vous "
-#~ "enregistrer ou de nous contacter pour que nous puissions le créer."
-
-#~ msgid "Customer Area"
-#~ msgstr "Espace Client"
-
-#~ msgid "Login Form"
-#~ msgstr "Formulaire de connexion"
-
-#~ msgid "Email format"
-#~ msgstr "Format du mel"
-
-#~ msgid "Plain text"
-#~ msgstr "Texte"
-
-#~ msgid "HTML"
-#~ msgstr "HTML"
-
-#, fuzzy
-#~ msgid ""
-#~ "The format in which login_form get sent. HTML might not always be "
-#~ "properly formatted."
-#~ msgstr ""
-#~ "Le format dans lequel les notifications sont envoyées. HTML peut ne pas "
-#~ "être correctement mis en forme."
-
-#~ msgid "The notification can not be sent if the file is not published"
-#~ msgstr ""
-#~ "La notification ne peut pas être envoyée si le fichier n'est pas publié"
-
-#~ msgid "The notification can not be sent if the file does not have an owner"
-#~ msgstr ""
-#~ "La notification ne peut pas être envoyée si le fichier n'a pas de "
-#~ "propriétaire"
-
-#~ msgid "The notification can not be sent if the file has not been uploaded"
-#~ msgstr ""
-#~ "La notification ne peut pas être envoyée si aucun fichier n'a été "
-#~ "téléversé"
-
-#~ msgid "A notification has been sent to %s"
-#~ msgstr "Une notification a été envoyée à %s"
-
-#~ msgid "Notifications"
-#~ msgstr "Notifications"
-
-#~ msgid "Let the owner know he can access this file"
-#~ msgstr "Informer le propriétaire qu'il peut accéder à ce fichier"
-
-#~ msgid ""
-#~ "The notification will only be sent if you publish the file, if you have "
-#~ "actually uploaded a file and if you have set an owner. Else nothing will "
-#~ "be sent."
-#~ msgstr ""
-#~ "La notification ne sera envoyée que si vous publiez le fichier, si vous "
-#~ "avez téléversé un fichier et si vous lui avez assigné un propriétaire. "
-#~ "Sinon rien ne sera envoyé."
-
-#~ msgid "From"
-#~ msgstr "De"
-
-#~ msgid "The emails will be shown as sent by this name."
-#~ msgstr "Les courriels seront vus comme envoyés de ce nom."
-
-#~ msgid "The emails will be shown as sent from this address."
-#~ msgstr "Les courriels seront vus comme envoyés de cette adresse."
-
-#~ msgid "New Private File"
-#~ msgstr "Nouveau Fichier Privé"
-
-#~ msgid "Mode"
-#~ msgstr "Mode"
-
-#~ msgid "Disabled"
-#~ msgstr "Désactivé"
-
-#~ msgid "Enabled"
-#~ msgstr "Activé"
-
-#~ msgid "Subjet"
-#~ msgstr "Sujet"
-
-#~ msgid "Body"
-#~ msgstr "Contenu"
-
-#~ msgid "Private File Download"
-#~ msgstr "Téléchargement d'un Fichier Privé"
-
-#~ msgid "Only the first time"
-#~ msgstr "Seulement la première fois"
-
-#~ msgid "Always"
-#~ msgstr "Toujours"
-
-#~ msgid ""
-#~ "You can choose whether you want to enable this notification. If you do, "
-#~ "you can opt to receive the notifications only the first time the user "
-#~ "downloads the file or every time he does it."
-#~ msgstr ""
-#~ "Vous pouvez choisir d'activer cette notification ou non. Si oui, vous "
-#~ "pouvez choisir de la recevoir seulement la première fois que le fichier "
-#~ "est téléchargé ou à chaque fois."
-
-#~ msgid "A new file for you is available on %site_name%"
-#~ msgstr "Un fichier est disponible sur votre espace client de %site_name%"
-
-#~ msgid ""
-#~ "<p>Hello %file_owner%,</p><p>A new file (%file_title%) has been made "
-#~ "available for you in our customer area. You can download it by following "
-#~ "the link: %file_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url"
-#~ "%</p>"
-#~ msgstr ""
-#~ "<p>Bonjour %file_owner%,</p><p>Un nouveau fichier (%file_title%) a été "
-#~ "déposé dans votre espace client. Vous pouvez le télécharger en suivant le "
-#~ "lien : %file_url%</p><p>Cordialement,</p><p>%from_name%<br/>%site_url%</p>"
-
-#~ msgid "New file download on %site_name%"
-#~ msgstr "Nouveau téléchargement sur %site_name%"
-
-#~ msgid ""
-#~ "<p>Hello,</p><p>A file (%file_title%) has been downloaded by "
-#~ "%download_user%.</p><p>Best regards,</p><p>The customer area plugin<br/>"
-#~ "%site_url%</p>"
-#~ msgstr ""
-#~ "<p>Bonjour,</p><p>Un fichier (%file_title%) a été téléchargé par "
-#~ "%download_user%.</p><p>Cordialement,</p><p>Votre plugin zone client<br/>"
-#~ "%site_url%</p>"
-
-#~ msgid ""
-#~ "Define here the email that will get sent to a user when a new private "
-#~ "file is uploaded for him."
-#~ msgstr ""
-#~ "Définissez ici le courriel envoyé à un utilisateur quand un nouveau "
-#~ "fichier est déposé pour lui."
-
-#~ msgid "Show after post"
-#~ msgstr "Après l'article"
-
-#~ msgid ""
-#~ "Show the view and download links below the post content for a customer "
-#~ "file."
-#~ msgstr ""
-#~ "Afficher les liens pour voir ou télécharger un fichier sous le contenu "
-#~ "d'un article représentant un fichier client."
-
-#~ msgid "Hello"
-#~ msgstr "Bonjour"
-
-#~ msgid "You must login to access your own customer area."
-#~ msgstr "Vous devez être connecté pour accéder à votre espace client"
-
-#~ msgid "Hello %s,"
-#~ msgstr "Bonjour %s,"
-
-#~ msgid "download-file"
-#~ msgstr "télécharger-fichier"
-
-#~ msgid "view-file"
-#~ msgstr "voir-fichier"
-
-#~ msgid "You are not authorized to view this file"
-#~ msgstr "Vous n'êtes pas autorisé à voir ce fichier"
-
-#~ msgid "You are not authorized to access this file"
-#~ msgstr "Vous n'êtes pas autorisé à accéder à ce fichier"
-
-#~ msgid "Customer Files"
-#~ msgstr "Fichiers clients"
-
-#~ msgid "Customer File"
-#~ msgstr "Fichier client"
-
-#~ msgid "Add New"
-#~ msgstr "Ajouter un nouveau"
-
-#~ msgid "Add New Customer File"
-#~ msgstr "Ajouter un fichier client"
-
-#~ msgid "Edit Customer File"
-#~ msgstr "Editer un fichier client"
-
-#~ msgid "New Customer File"
-#~ msgstr "Nouveau fichier client"
-
-#~ msgid "View Customer File"
-#~ msgstr "Voir le fichier client"
-
-#~ msgid "Search Customer Files"
-#~ msgstr "Chercher des fichiers privés : %s"
-
-#~ msgid "No customer files found"
-#~ msgstr "Aucun fichier client trouvé"
-
-#~ msgid "No customer files found in Trash"
-#~ msgstr "Aucun fichier client trouvé dans la corbeille"
-
-#~ msgid "Parent Customer File:"
-#~ msgstr "Fichier client parent :"
-
-#~ msgid "File Categories"
-#~ msgstr "Catégories de fichier"
-
-#~ msgid "File Category"
-#~ msgstr "Catégorie de fichier"
-
-#~ msgid "Search File Categories"
-#~ msgstr "Chercher des catégories de fichier"
-
-#~ msgid "Popular File Categories"
-#~ msgstr "Catégories de fichier populaires"
-
-#~ msgid "All File Categories"
-#~ msgstr "Toutes les catégories de fichier"
-
-#~ msgid "Parent File Category"
-#~ msgstr "Catégorie de fichier parente"
-
-#~ msgid "Parent File Category:"
-#~ msgstr "Catégorie de fichier parente :"
-
-#~ msgid "Edit File Category"
-#~ msgstr "Modifier la catégorie de fichier"
-
-#~ msgid "Update File Category"
-#~ msgstr "Mettre à jour la catégorie de fichier"
-
-#~ msgid "Add New File Category"
-#~ msgstr "Ajouter une catégorie de fichier"
-
-#~ msgid "New File Category"
-#~ msgstr "Nouvelle catégorie de fichier"
-
-#~ msgid "Separate file categories with commas"
-#~ msgstr "Séparez les catégories de fichier avec des virgules"
-
-#~ msgid "Add or remove file categories"
-#~ msgstr "Ajouter ou enlever des catégories de fichier"
-
-#~ msgid "Choose from the most used file categories"
-#~ msgstr "Choisir parmi les catégories de fichier les plus courantes"
-
-#~ msgid "private-file-category"
-#~ msgstr "catégorie-fichier-privé"
-
-#~ msgid "private-file"
-#~ msgstr "fichier-privé"
-
-#~ msgid "unknown"
-#~ msgstr "inconnu"
-
-#~ msgid "Owner"
-#~ msgstr "Propriétaire"
-
-#~ msgid "Nobody"
-#~ msgstr "Personne"
-
-#~ msgid "File"
-#~ msgstr "Fichier"
-
-#~ msgid "Current file:"
-#~ msgstr "Fichier actuel :"
-
-#~ msgid "Upload a file"
-#~ msgstr "Téléverser un fichier"
-
-#~ msgid "This file type is not allowed. You can only upload: %s"
-#~ msgstr ""
-#~ "Ce type de fichier n'est pas autorisé. Vous pouvez seulement téléverser : "
-#~ "%s"
-
-#~ msgid "An unknown error happened while uploading your file."
-#~ msgstr ""
-#~ "Une erreur inconnue est survenue lors du téléversement de votre fichier."
-
-#~ msgid "An error happened while uploading your file: %s"
-#~ msgstr "Une erreur est survenue lors du téléversement de votre fichier : %s"
-
-#~ msgid "Associated file"
-#~ msgstr "Fichier associé"
-
-#~ msgid "View"
-#~ msgstr "Voir"
-
-#~ msgid "Download"
-#~ msgstr "Télécharger"
-
-#~ msgid "You currently have no files."
-#~ msgstr "Vous n'avez aucun fichier actuellement."
-
-#~ msgid "Your files"
-#~ msgstr "Vos fichiers"
-
-#~ msgid "Added on %s"
-#~ msgstr "Ajouté le %s"
-
-#~ msgid "Categories"
-#~ msgstr "Catégories"
-
-#~ msgid "Category"
-#~ msgstr "Catégorie"
-
-#~ msgid "Houston&hellip; we have a problem!"
-#~ msgstr "Houston&hellip; on a un problème !"
-
-#~ msgid ""
-#~ "We have not found what you are looking for. You could simply close this "
-#~ "window out of rage, but you might also want to have a look at the rest of "
-#~ "the website. I am sure you won' be disappointed again. Promise."
-#~ msgstr ""
-#~ "Nous n'avons pas trouvé ce que vous cherchiez. Pour sûr, vous devez être "
-#~ "en pétard, mais vous devriez parcourir le reste du site, vous ne serez "
-#~ "pas déçu de nouveau, promis."
-
-#~ msgid "Browse our blog"
-#~ msgstr "Parcourir le blog"
-
-#~ msgid "By Date"
-#~ msgstr "Par date"
-
-#~ msgid "By Tag"
-#~ msgstr "Par étiquette"
-
-#~ msgid "Filter our work"
-#~ msgstr "Filtrer les projets"
-
-#~ msgid "All projects"
-#~ msgstr "Tous les projets"
-
-#~ msgid "By date"
-#~ msgstr "Par date"
-
-#~ msgid "By type"
-#~ msgstr "Par type"
-
-#~ msgid "Browse our archives"
-#~ msgstr "Parcourez nos archives"
-
-#~ msgid "Daily Archives: %s"
-#~ msgstr "Archives du jour : %s"
-
-#~ msgid "Monthly Archives: %s"
-#~ msgstr "Archives du mois : %s"
-
-#~ msgid "F Y"
-#~ msgstr "F Y"
-
-#~ msgid "Yearly Archives: %s"
-#~ msgstr "Archives de l'année : %s"
-
-#~ msgid "Y"
-#~ msgstr "Y"
-
-#~ msgid "Archives"
-#~ msgstr "Archives"
-
-#~ msgid "Category Archives: %s"
-#~ msgstr "Archives de la catégorie : %s"
-
-#~ msgid "Comment navigation"
-#~ msgstr "Navigation"
-
-#~ msgid "&laquo; Older Comments"
-#~ msgstr "Commentaires plus anciens &laquo;"
-
-#~ msgid "Newer Comments &raquo;"
-#~ msgstr "Commentaires plus récents &raquo;"
-
-#~ msgid "Comments are closed."
-#~ msgstr "Les commentaires ne sont plus possibles."
-
-#~ msgid "Leave a comment"
-#~ msgstr "Laisser un commentaire"
-
-#~ msgid "Learn more about &laquo; %s &raquo;"
-#~ msgstr "En savoir plus sur &laquo; %s &raquo;"
-
-#~ msgid "Filed under: "
-#~ msgstr "Classé dans : "
-
-#~ msgid "<li>&raquo; Tagged: "
-#~ msgstr "<li>&raquo; Etiqueté : "
-
-#~ msgid "Permalink to %s"
-#~ msgstr "Lien permanent vers %s"
-
-#~ msgid "Read more"
-#~ msgstr "En savoir plus"
-
-#~ msgid "Edit this post"
-#~ msgstr "Editer ce post"
-
-#~ msgid "Get in touch"
-#~ msgstr "Contactez-nous"
-
-#~ msgid "+33 6 50 21 23 94"
-#~ msgstr "06 50 21 23 94"
-
-#~ msgid "hello@marvinlabs.com"
-#~ msgstr "bonjour@marvinlabs.com"
-
-#~ msgid "+1 us on Google+"
-#~ msgstr "+1 sur Google+"
-
-#~ msgid "Like us on Facebook"
-#~ msgstr "Aimez-nous sur Facebook"
-
-#~ msgid "Follow us on Twitter"
-#~ msgstr "Suivez-nous sur Twitter"
-
-#~ msgid "Use our code from GitHub"
-#~ msgstr "Utilisez notre code publié sur GitHub"
-
-#~ msgid "We help fellow developers on StackOverflow"
-#~ msgstr "Nous aidons nos collègues développeurs sur StackOverflow"
-
-#~ msgid "Get our free WordPress plugins & themes"
-#~ msgstr "Téléchargez nos plugins et thèmes gratuits pour WordPress"
-
-#~ msgid "Main navigation menu"
-#~ msgstr "Menu de navigation principal"
-
-#~ msgid "Work"
-#~ msgstr "Projet"
-
-#~ msgid "work"
-#~ msgstr "projet"
-
-#~ msgid "Type"
-#~ msgstr "Type"
-
-#~ msgid "Types"
-#~ msgstr "Types"
-
-#~ msgid "work-type"
-#~ msgstr "type-de-projet"
-
-#~ msgid "Skill"
-#~ msgstr "Compétence"
-
-#~ msgid "Skills"
-#~ msgstr "Compétences"
-
-#~ msgid "work-skill"
-#~ msgstr "competence"
-
-#~ msgid "Technology"
-#~ msgstr "Technologie"
-
-#~ msgid "Technologies"
-#~ msgstr "Technologies"
-
-#~ msgid "work-technology"
-#~ msgstr "technologie"
-
-#~ msgid "work-category"
-#~ msgstr "catégorie-projet"
-
-#~ msgid "Single blog post"
-#~ msgstr "Post de blog unique"
-
-#~ msgid "Blog archive page"
-#~ msgstr "Archive du blog"
-
-#~ msgid "Footer, #getintouch"
-#~ msgstr "Footer, #getintouch"
-
-#~ msgid "Footer, #bottom"
-#~ msgstr "Footer, #bottom"
-
-#~ msgid "Page %s"
-#~ msgstr "Page %s"
-
-#~ msgid "About this project"
-#~ msgstr "A propos de ce projet"
-
-#~ msgid "Project launched in %s"
-#~ msgstr "Projet lancé en %s"
-
-#~ msgid "View the live website"
-#~ msgstr "Visiter le site en ligne"
-
-#~ msgid "Get the app on Google Play"
-#~ msgstr "Télécharger l'application sur GooglePlay"
-
-#~ msgid "Get the app on Apple's AppStore"
-#~ msgstr "Télécharger l'application sur l'AppStore d'Apple"
-
-#~ msgid "Get the WordPress plugin"
-#~ msgstr "Téléchargez le plugin WordPress"
-
-#~ msgid "Project type: "
-#~ msgstr "Type de projet : "
-
-#~ msgid "Skills: "
-#~ msgstr "Compétences : "
-
-#~ msgid "Technologies: "
-#~ msgstr "Technologies : "
-
-#~ msgid "You like this project and think we can do a good job with yours?"
-#~ msgstr ""
-#~ "Vous aimez ce projet et pensez que nous pourrions faire du bon travail "
-#~ "pour le votre ?"
-
-#~ msgid "Request a quote"
-#~ msgstr "Demandez un devis"
-
-#~ msgid "About this post"
-#~ msgstr "A propos de cet article"
-
-#~ msgid "Posted on: "
-#~ msgstr "Posté le :"
-
-#~ msgid "Tag Archives: %s"
-#~ msgstr "Archives d'étiquette : %s"
-
-#~ msgid "Our projects of type: %s"
-#~ msgstr "Nos projets de type : %s"
-
-#~ msgid "%1$s on %2$s"
-#~ msgstr "%1$s sur %2$s"
-
-#~ msgid "Posts navigation"
-#~ msgstr "Navigation"
-
-#~ msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
-#~ msgstr "<span class=\"meta-nav\">&laquo;</span> Articles plus anciens"
-
-#~ msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
-#~ msgstr "Articles plus récents <span class=\"meta-nav\">&raquo;</span>"
-
-#~ msgid "show details"
-#~ msgstr "afficher les détails"
-
-#~ msgid "See all of our work"
-#~ msgstr "Voir tous nos projets"
-
-#~ msgid ""
-#~ "All content on this website is the property of &laquo;Constant le "
-#~ "jardinier&raquo; and may not be used without permission"
-#~ msgstr ""
-#~ "Tout le contenu sur ce site est la propriété exclusive de &laquo;Constant "
-#~ "le jardinier&raquo; et ne peut être utilisé sans permission"
-
-#~ msgid "&copy; Constant le jardinier"
-#~ msgstr "&copy; Constant le jardinier"
-
-#~ msgid ""
-#~ "Designed and carried out by MarvinLabs, digital creation studio in Basque "
-#~ "country, France (Biarritz, Anglet, Bayonne)"
-#~ msgstr ""
-#~ "Imaginé et réalisé par MarvinLabs, studio de création numérique au pays "
-#~ "basque (Biarritz, Anglet, Bayonne)"
-
-#~ msgid "A website planted with care by MarvinLabs"
-#~ msgstr "Un site délicatement planté par MarvinLabs"
-
-#~ msgid "and"
-#~ msgstr "et"
-
-#~ msgid "Paintings by Marilou Laure"
-#~ msgstr "Peintures par Marilou Laure"
-
-#~ msgid "illustrated with taste by Marilou Laure"
-#~ msgstr "illustré avec goût par Marilou Laure"
-
-#~ msgid "Left footer navigation"
-#~ msgstr "Navigation bas gauche"
-
-#~ msgid "Right footer navigation"
-#~ msgstr "Navigation bas droite"
-
-#~ msgid "Services"
-#~ msgstr "Services"
-
-#~ msgid "Service"
-#~ msgstr "Service"
-
-#~ msgid "Footer Widgets 1 (Left)"
-#~ msgstr "Footer Widgets 1 (Left)"
-
-#~ msgid "Footer Widgets 2 (Middle)"
-#~ msgstr "Footer Widgets 2 (Middle)"
-
-#~ msgid "Footer Widgets 3 (Right)"
-#~ msgstr "Footer Widgets 3 (Right)"
-
-#~ msgid "Nothing here"
-#~ msgstr "Rien ici"
-
-#~ msgid "You should not even be on this page!"
-#~ msgstr "Vous ne devriez même pas vous retrouver sur cette page !"
+#. Plugin Name of the plugin/theme
+msgid "bxSlider integration for WordPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.marvinlabs.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Replaces the native WordPress galleries by a slider based on the jQuery "
+"plugin: bxSlider"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MarvinLabs"
+msgstr ""
