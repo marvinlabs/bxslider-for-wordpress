@@ -6,7 +6,7 @@ module.exports = function (grunt) {
             src: "grunt/tasks/*"
         },
         pkg: grunt.file.readJSON("package.json")
-    }, 'grunt/config');
+    }, "grunt/config");
 
     // Configure tasks
     var path = require("path");
@@ -28,16 +28,26 @@ module.exports = function (grunt) {
 
     // Register some default grunt tasks
     grunt.registerTask("default", ["watch"]);
-    grunt.registerTask("i18n", ["checktextdomain", "makepot"]);
-    grunt.registerTask("dist", ["less:dist", "uglify:dist", "autoprefixer:dist", "i18n", "wp_readme_to_markdown"]);
+
+    grunt.registerTask("dist", ["less:dist", "uglify:dist", "autoprefixer:dist", "tx-pull", "wp_readme_to_markdown"]);
     grunt.registerTask("dev", ["less:dev", "uglify:dev", "autoprefixer:dev"]);
 
-    // The task to make a new release before deploying
-    grunt.registerTask("release", "Release task", function (mode) {
+    grunt.registerTask("tx-push", ["checktextdomain", "makepot", "exec:txpush_s"]);
+    grunt.registerTask("tx-pull", ["exec:txpull", "potomo"]);
+
+    // The task to prepare a new release
+    grunt.registerTask("start-release", "Prepare release task", function (mode) {
+        grunt.task.run(
+            "checktextdomain",
+            "version::" + mode,
+            "tx-push",
+            "dist");
+    });
+
+    // The task to make a new release
+    grunt.registerTask("finish-release", "Release task", function (mode) {
         grunt.task.run(
             "checkpending",
-            "version::" + mode,
-            "dist",
             "gitcommit:post_release",
             "compress:build");
     });
@@ -56,10 +66,10 @@ module.exports = function (grunt) {
  * @returns {{}}
  */
 function loadConfig(grunt, config, path) {
-    var glob = require('glob');
-    glob.sync('*.json', {cwd: path}).forEach(function (filename) {
-        var key = filename.replace(/\.json$/, '');
-        config[key] = grunt.file.readJSON(path + '/' + filename);
+    var glob = require("glob");
+    glob.sync("*.json", {cwd: path}).forEach(function (filename) {
+        var key = filename.replace(/\.json$/, "");
+        config[key] = grunt.file.readJSON(path + "/" + filename);
     });
 
     return config;

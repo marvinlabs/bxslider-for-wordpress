@@ -1,25 +1,8 @@
-function objToString(obj, level) {
-    var out = '';
-    for (var i in obj) {
-        for (loop = level; loop > 0; loop--) {
-            out += "    ";
-        }
-        if (obj[i] instanceof Object) {
-            out += i + " (Object):\n";
-            out += objToString(obj[i], level + 1);
-        }
-        else {
-            out += i + ": " + obj[i] + "\n";
-        }
-    }
-    return out;
-}
-
 module.exports = function (grunt, options) {
     return {
         default: {
             options: {
-                cwd: '',                          // Directory of files to internationalize.
+                cwd: "",                          // Directory of files to internationalize.
                 domainPath: options.i18n.poPath,
                 exclude: [
                     "node_modules/.*",
@@ -30,33 +13,36 @@ module.exports = function (grunt, options) {
                 include: options.i18n.sources,
                 mainFile: options.i18n.mainFile,
                 potComments: options.i18n.copyright,
-                potFilename: options.i18n.textDomain + '.pot',
+                potFilename: options.i18n.textDomain + ".pot",
                 potHeaders: {
                     poedit: true,
-                    'x-poedit-keywordslist': true
-                },
-                processPot: function (pot) {
-                    for (var translation in pot.translations['']) {
-                        var tr = pot.translations[''][translation];
-
-                        if ("" == translation.trim()) {
-                            grunt.log.writeln("Removed empty string");
-                            delete pot.translations[''][translation];
-                            continue;
-                        }
-
-                        if (( 'undefined' !== typeof tr.comments.reference )
-                            && (tr.comments.reference.indexOf("node_modules") >= 0)) {
-                            grunt.log.writeln("Removed node_modules string: " + translation);
-                            delete pot.translations[''][translation];
-                            continue;
-                        }
-                    }
-                    return pot;
+                    "x-poedit-keywordslist": true
                 },
                 type: options.i18n.projectType,
                 updateTimestamp: true,
-                updatePoFiles: true
+                updatePoFiles: false,
+                processPot: function (pot) {
+                    pot.headers["report-msgid-bugs-to"] = options.pkg.bugs.url + "\n";
+                    pot.headers["last-translator"] = options.pkg.author.name + " <" + options.pkg.author.email + ">\n";
+                    pot.headers["language-team"] = options.pkg.author.url + "\n";
+                    pot.headers["language"] = "en_US";
+
+                    var excluded_meta = [
+                        "Plugin Name of the plugin/theme",
+                        "Plugin URI of the plugin/theme",
+                        "Author of the plugin/theme",
+                        "Author URI of the plugin/theme"
+                    ];
+                    for (var translation in pot.translations[""]) {
+                        if ("undefined" !== typeof pot.translations[""][translation].comments.extracted) {
+                            if (excluded_meta.indexOf(pot.translations[""][translation].comments.extracted) >= 0) {
+                                console.log("Excluded meta: " + pot.translations[""][translation].comments.extracted);
+                                delete pot.translations[""][translation];
+                            }
+                        }
+                    }
+                    return pot;
+                }
             }
         }
     };
