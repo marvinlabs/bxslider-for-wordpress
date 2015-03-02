@@ -4,7 +4,7 @@
 **Tags:** wordpress, gallery, slider, bxslider, slideshow,   
 **Requires at least:** 3.5  
 **Tested up to:** 3.9  
-**Stable tag:** 1.7.1  
+**Stable tag:** 1.7.2  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -126,12 +126,6 @@ Nothing worth mentionning yet. You might visit the settings page though to adjus
 Nothing special, just upload the files, activate and you can then visit the settings page if you want. Really, it's 
 just like any other simple plugin.
 
-## Screenshots ##
-
-### 1. A standard WordPress gallery turned into a slider with a thumbnail carousel. ###
-![A standard WordPress gallery turned into a slider with a thumbnail carousel.](http://plugins.svn.wordpress.org/bxslider-integration/assets/screenshot-1.jpg)
-
-
 ## Frequently Asked Questions ##
 
 ### Why isn't bxSlider's XXXXX option available in the plugin's settings page or shortcode? ###
@@ -144,9 +138,10 @@ every gallery/slider).
 
 ## Changelog ##
 
-### 1.7.0 (2015/02/27) ###
+### 1.7.2 (2015/03/02) ###
 
 * New: Better structure for the plugin sources and release system
+* New: Be part of our translator community at wp-translations.org
 
 ### 1.6.0 (2014/05/15) ###
 
