@@ -1,12 +1,12 @@
-# 
+# (c) Vincent Mimoun-Prat, MarvinLabs {2015}
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: bxSlider Integration for WordPress\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/bxslider-integration\n"
-"POT-Creation-Date: 2015-02-27 17:56:04+00:00\n"
-"PO-Revision-Date: 2015-03-02 08:25+0000\n"
-"Last-Translator: Vincent Mimoun-Prat <vpratfr@yahoo.fr>\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/bxslider-for-wordpress/issues\n"
+"POT-Creation-Date: 2015-03-02 14:22:21+00:00\n"
+"PO-Revision-Date: 2015-03-05 13:10+0000\n"
+"Last-Translator: FxB <fxb@wp-translations.org>\n"
 "Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/bxslider-integration-for-wordpress/language/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -258,24 +258,8 @@ msgid ""
 "<code>[slider]</code> or <code>[bxslider]</code>."
 msgstr "Opciones relacionadas con los códigos cortos de la salida de un control deslizante  <code> [deslizador] </code> o <code> [bxslider] </code>."
 
-#: src/php/settings.class.php:756
-msgid "Testing POT"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-msgid "bxSlider integration for WordPress"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "http://www.marvinlabs.com"
-msgstr ""
-
 #. Description of the plugin/theme
 msgid ""
 "Replaces the native WordPress galleries by a slider based on the jQuery "
 "plugin: bxSlider"
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "MarvinLabs"
 msgstr ""
